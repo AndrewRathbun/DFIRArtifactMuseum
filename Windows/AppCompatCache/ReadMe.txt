@@ -1,0 +1,1 @@
+These are the raw, binary contents of the SYSTEM\CurrentControlSet\Control\Session Manager\AppCompatCache key's AppCompatCache value
