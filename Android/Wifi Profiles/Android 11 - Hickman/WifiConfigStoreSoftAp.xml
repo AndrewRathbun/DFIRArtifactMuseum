@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WifiConfigStoreData>
+<int name="Version" value="3" />
+<SoftAp>
+<string name="SSID">Pixel_1501</string>
+<int name="ApBand" value="1" />
+<int name="Channel" value="0" />
+<boolean name="HiddenSSID" value="false" />
+<int name="SecurityType" value="1" />
+<string name="Passphrase">8f4nsb8siec9agj</string>
+<int name="MaxNumberOfClients" value="0" />
+<boolean name="ClientControlByUser" value="false" />
+<boolean name="AutoShutdownEnabled" value="true" />
+<long name="ShutdownTimeoutMillis" value="0" />
+<BlockedClientList />
+<AllowedClientList />
+</SoftAp>
+</WifiConfigStoreData>

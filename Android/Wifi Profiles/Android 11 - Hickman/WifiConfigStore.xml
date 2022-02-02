@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WifiConfigStoreData>
+<int name="Version" value="3" />
+<NetworkList>
+<Network>
+<WifiConfiguration>
+<string name="ConfigKey">&quot;CcookiesDcastleR5 Guest&quot;WPA_PSK</string>
+<string name="SSID">&quot;CcookiesDcastleR5 Guest&quot;</string>
+<string name="PreSharedKey">&quot;*SorryThereIsNoPasswordHere!123&quot;</string>
+<null name="WEPKeys" />
+<int name="WEPTxKeyIndex" value="0" />
+<boolean name="HiddenSSID" value="false" />
+<boolean name="RequirePMF" value="false" />
+<byte-array name="AllowedKeyMgmt" num="1">02</byte-array>
+<byte-array name="AllowedProtocols" num="1">03</byte-array>
+<byte-array name="AllowedAuthAlgos" num="0"></byte-array>
+<byte-array name="AllowedGroupCiphers" num="1">2f</byte-array>
+<byte-array name="AllowedPairwiseCiphers" num="1">0e</byte-array>
+<byte-array name="AllowedGroupMgmtCiphers" num="1">04</byte-array>
+<byte-array name="AllowedSuiteBCiphers" num="0"></byte-array>
+<boolean name="Shared" value="true" />
+<boolean name="AutoJoinEnabled" value="true" />
+<boolean name="Trusted" value="true" />
+<null name="BSSID" />
+<int name="Status" value="2" />
+<null name="FQDN" />
+<null name="ProviderFriendlyName" />
+<null name="LinkedNetworksList" />
+<null name="DefaultGwMacAddress" />
+<boolean name="ValidatedInternetAccess" value="true" />
+<boolean name="NoInternetAccessExpected" value="false" />
+<boolean name="MeteredHint" value="false" />
+<int name="MeteredOverride" value="0" />
+<boolean name="UseExternalScores" value="false" />
+<int name="CreatorUid" value="10132" />
+<string name="CreatorName">com.google.android.setupwizard</string>
+<int name="LastUpdateUid" value="10132" />
+<string name="LastUpdateName">com.google.android.setupwizard</string>
+<int name="LastConnectUid" value="10132" />
+<boolean name="IsLegacyPasspointConfig" value="false" />
+<long-array name="RoamingConsortiumOIs" num="0" />
+<string name="RandomizedMacAddress">76:50:e7:3d:ae:2a</string>
+<int name="MacRandomizationSetting" value="1" />
+<int name="CarrierId" value="-1" />
+<boolean name="IsMostRecentlyConnected" value="true" />
+</WifiConfiguration>
+<NetworkStatus>
+<string name="SelectionStatus">NETWORK_SELECTION_ENABLED</string>
+<string name="DisableReason">NETWORK_SELECTION_ENABLE</string>
+<null name="ConnectChoice" />
+<boolean name="HasEverConnected" value="true" />
+</NetworkStatus>
+<IpConfiguration>
+<string name="IpAssignment">DHCP</string>
+<string name="ProxySettings">NONE</string>
+</IpConfiguration>
+</Network>
+</NetworkList>
+<MacAddressMap>
+<map name="MacMapEntry" />
+</MacAddressMap>
+<Settings>
+<map name="Values">
+<boolean name="wifi_p2p_pending_factory_reset" value="false" />
+<boolean name="wifi_scan_throttle_enabled" value="true" />
+<null name="wifi_p2p_device_name" />
+<boolean name="wifi_scan_always_enabled" value="true" />
+<boolean name="wifi_verbose_logging_enabled" value="false" />
+</map>
+</Settings>
+<PasspointConfigData>
+<long name="ProviderIndex" value="0" />
+</PasspointConfigData>
+</WifiConfigStoreData>

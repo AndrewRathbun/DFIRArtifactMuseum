@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name=":requiresCharging" value="false" />
+    <long name=":lastRunMsec" value="1601923386120" />
+    <long name=":dumpMillis" value="1601923386381" />
+    <long name=":resetMillis" value="1601898742875" />
+    <long name=":recordIntervalSecs" value="7200" />
+</map>
