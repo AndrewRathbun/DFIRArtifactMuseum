@@ -6,4 +6,4 @@ The goal of this repo is to archive artifacts from all versions of various OS's 
 Want to see what the future holds for the DFIRArtifactMuseum repo? Check out the [project board](https://github.com/AndrewRathbun/DFIRArtifactMuseum/projects/1) where the to-do list can be found! 
 
 ## Contributing to DFIRArtifactMuseum
-Please check out `CONTRIBUTING.md` (coming very soon) if you want guidance on how you can contribute to the DFIRArtifactMuseum. 
+Please check out [CONTRIBUTING.md](https://github.com/AndrewRathbun/DFIRArtifactMuseum/blob/main/CONTRIBUTING.md) if you want guidance on how you can contribute to the DFIRArtifactMuseum. 
