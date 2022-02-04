@@ -1,4 +1,4 @@
-# %ArtifactName%
+# %OperatingSystem%
 
 ## Description
 
