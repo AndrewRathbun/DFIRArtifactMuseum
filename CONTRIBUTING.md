@@ -9,4 +9,10 @@ For instance:
 
 `Windows\JumpLists\Win10\5f7b5f1e01b83767.automaticDestinations-ms`
 
+## Adding Documentation
+
+If you are contributing a new Artifact, please use the [ArtifactTemplate.md](https://github.com/AndrewRathbun/DFIRArtifactMuseum/blob/main/.github/ArtifactTemplates.md) document as the README in that artifact's folder.
+
+If you are contributing to an Operating System, please consider updating the associated README, if it makes sense.
+
 Thank you for any contribution you make! 
