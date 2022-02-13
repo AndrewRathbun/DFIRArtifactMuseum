@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnergyReport xmlns="http://schemas.microsoft.com/energy/2007">
+  <ReportInformation>
+    <ReportGuid>7cf449dc-050f-4e42-b14d-92255d6fe7fd</ReportGuid>
+    <ReportVersion>1.0</ReportVersion>
+    <ScanTime>2022-02-06T22:22:20Z</ScanTime>
+    <ScanDuration>PT60S</ScanDuration>
+  </ReportInformation>
+  <Troubleshooter guid="c78b52e3-9cd7-4802-979c-57ca1283dafa">
+    <Name>System Information</Name>
+    <AnalysisLog>
+      <LogEntry guid="3d053cee-9926-4ac0-a4e1-63ab80c63af0">
+        <Name>System Information</Name>
+        <Severity>Informational</Severity>
+        <Description>System Information Details</Description>
+        <Details>
+          <Detail guid="300b5d9f-434e-45b0-80d2-4bd55b168ef3">
+            <Name>Computer Name</Name>
+            <Value>DESKTOP-GNCCVRK</Value>
+          </Detail>
+          <Detail guid="a49d84bf-a8c7-4c26-8f54-eefccac2f084">
+            <Name>System Manufacturer</Name>
+            <Value>VMware, Inc.</Value>
+          </Detail>
+          <Detail guid="ceddb6e2-626c-4efe-ae58-c7b241693909">
+            <Name>System Product Name</Name>
+            <Value>VMware7,1</Value>
+          </Detail>
+          <Detail guid="b586008a-e3ca-457a-8f48-30fe0de3facf">
+            <Name>BIOS Date</Name>
+            <Value>08/09/2021</Value>
+          </Detail>
+          <Detail guid="c85bfef6-93e7-4f1a-a35d-20655dab095d">
+            <Name>BIOS Version</Name>
+            <Value>VMW71.00V.18452719.B64.2108091906</Value>
+          </Detail>
+          <Detail guid="31dc51fd-a872-4546-a54f-ae0da74cdf9f">
+            <Name>OS Build Number</Name>
+            <Value>19043</Value>
+          </Detail>
+          <Detail guid="8838163d-e78c-4858-9432-9b034382e9f6">
+            <Name>Platform Role</Name>
+            <Value>PlatformRoleDesktop</Value>
+          </Detail>
+          <Detail guid="d64ab9ff-6978-4c37-ac17-9494347b673b">
+            <Name>Process Count</Name>
+            <Value>141</Value>
+          </Detail>
+          <Detail guid="375cbf0f-61d5-42b8-a0fd-16c198b7b32f">
+            <Name>Thread Count</Name>
+            <Value>1424</Value>
+          </Detail>
+          <Detail guid="9fd5343d-fcb1-42ac-9566-8a8e8409a60b">
+            <Name>Plugged In</Name>
+            <Value>true</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="b80a1fd9-c81e-479f-8f72-c6a1e9e54dec">
+    <Name>Platform Timer Resolution</Name>
+    <AnalysisLog>
+      <LogEntry guid="843c944e-9fc2-4e58-9e58-9bfdf0ea25b2">
+        <Name>Platform Timer Resolution</Name>
+        <Severity>Informational</Severity>
+        <Description>The default platform timer resolution is 15.6ms (15625000ns) and should be used whenever the system is idle.  If the timer resolution is increased, processor power management technologies may not be effective.  The timer resolution may be increased due to multimedia playback or graphical animations.</Description>
+        <Details>
+          <Detail guid="e5ba7e97-57dd-4378-a022-0b5b3fff3d22">
+            <Name>Current Timer Resolution (100ns units)</Name>
+            <Value>156250</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="f84b604c-98bb-47ba-a789-75cde4996a87">
+        <Name>Timer Request Stack</Name>
+        <Severity>Informational</Severity>
+        <Description>The stack of modules responsible for the lowest platform timer setting in this process.</Description>
+        <Details>
+          <Detail guid="039d0c56-f34d-4a82-82a9-85e65773ee94">
+            <Name>Requested Period</Name>
+            <Value>10000</Value>
+          </Detail>
+          <Detail guid="01ee080e-57de-431b-8016-8354fb450f1b">
+            <Name>Requesting Process ID</Name>
+            <Value>6764</Value>
+          </Detail>
+          <Detail guid="d15575fe-5c30-4eca-a1e8-583573756e7f">
+            <Name>Requesting Process Path</Name>
+            <Value>\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\kernel32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\98.0.1108.43\msedge.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\kernel32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="f84b604c-98bb-47ba-a789-75cde4996a87">
+        <Name>Timer Request Stack</Name>
+        <Severity>Informational</Severity>
+        <Description>The stack of modules responsible for the lowest platform timer setting in this process.</Description>
+        <Details>
+          <Detail guid="039d0c56-f34d-4a82-82a9-85e65773ee94">
+            <Name>Requested Period</Name>
+            <Value>40000</Value>
+          </Detail>
+          <Detail guid="01ee080e-57de-431b-8016-8354fb450f1b">
+            <Name>Requesting Process ID</Name>
+            <Value>7900</Value>
+          </Detail>
+          <Detail guid="d15575fe-5c30-4eca-a1e8-583573756e7f">
+            <Name>Requesting Process Path</Name>
+            <Value>\Device\HarddiskVolume3\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\kernel32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\edgehtml.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\user32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\SystemRoot\system32\ntoskrnl.exe</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\SystemRoot\System32\win32kfull.sys</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\SystemRoot\System32\win32k.sys</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\SystemRoot\system32\ntoskrnl.exe</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\win32u.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\user32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\Windows.UI.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\edgehtml.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\kernel32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="f84b604c-98bb-47ba-a789-75cde4996a87">
+        <Name>Timer Request Stack</Name>
+        <Severity>Informational</Severity>
+        <Description>The stack of modules responsible for the lowest platform timer setting in this process.</Description>
+        <Details>
+          <Detail guid="039d0c56-f34d-4a82-82a9-85e65773ee94">
+            <Name>Requested Period</Name>
+            <Value>10000</Value>
+          </Detail>
+          <Detail guid="01ee080e-57de-431b-8016-8354fb450f1b">
+            <Name>Requesting Process ID</Name>
+            <Value>4696</Value>
+          </Detail>
+          <Detail guid="d15575fe-5c30-4eca-a1e8-583573756e7f">
+            <Name>Requesting Process Path</Name>
+            <Value>\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\kernel32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\98.0.1108.43\msedge.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\kernel32.dll</Value>
+          </Detail>
+          <Detail guid="c3b5315f-40d8-47a4-ab56-70a237a8f78f">
+            <Name>Calling Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="468e6809-1940-4b2d-ae6c-2208ad6e196b">
+    <Name>Power Policy</Name>
+    <AnalysisLog>
+      <LogEntry guid="2d5efe46-43de-4840-aa33-62e1c10af324">
+        <Name>Active Power Plan</Name>
+        <Severity>Informational</Severity>
+        <Description>The current power plan in use</Description>
+        <Details>
+          <Detail guid="abf6ffeb-c575-4031-87b6-0ef12a886fee">
+            <Name>Plan GUID</Name>
+            <Value>{381b4222-f694-41f0-9685-ff5bb260df2e}</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="a0463a6b-ae36-418b-9997-642ca0c55ac5">
+        <Name>Power Plan Personality (Plugged In)</Name>
+        <Severity>Informational</Severity>
+        <Description>The personality of the current power plan when the system is plugged in.</Description>
+        <Details>
+          <Detail guid="fc84c527-7c74-42c0-a8c5-cc6e1a60b961">
+            <Name>Personality</Name>
+            <Value>2</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="4847a8d0-101f-45ab-a73a-8b050188a9e5">
+        <Name>802.11 Radio Power Policy is Maximum Performance (Plugged In)</Name>
+        <Severity>Informational</Severity>
+        <Description>The current power policy for 802.11-compatible wireless network adapters is not configured to use low-power modes.</Description>
+      </LogEntry>
+      <LogEntry guid="2147bd4c-1120-465a-a6cc-27684ffe628a">
+        <Name>Video quality (Plugged In)</Name>
+        <Severity>Informational</Severity>
+        <Description>Enables Windows Media Player to optimize for quality or power savings when playing video.</Description>
+        <Details>
+          <Detail guid="dc3d55c6-2f0c-4397-bdc4-d2d9a3148969">
+            <Name>Quality Mode</Name>
+            <Value>0</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="d6f4a3bd-f55a-45ef-a705-640cfbb24f42">
+    <Name>System Availability Requests</Name>
+    <AnalysisLog>
+      <LogEntry guid="326fb9d3-85d4-4975-a922-f74e71c12360">
+        <Name>Analysis Success</Name>
+        <Severity>Informational</Severity>
+        <Description>Analysis was successful. No energy efficiency problems were found.  No information was returned.</Description>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="5a462902-896e-4fbb-a3f2-db2a5b3fc583">
+    <Name>USB Suspend</Name>
+    <AnalysisLog>
+      <LogEntry guid="109f745a-2d80-4358-b63a-0c7a2ae1afea">
+        <Name>USB Device not Entering Selective Suspend</Name>
+        <Severity>Error</Severity>
+        <Description>This device did not enter the USB Selective Suspend state.  Processor power management may be prevented when this USB device is not in the Selective Suspend state.  Note that this issue will not prevent the system from sleeping.</Description>
+        <Details>
+          <Detail guid="20e05e87-f844-47bf-ba24-61c9f4352443">
+            <Name>Device Name</Name>
+            <Value>USB Composite Device</Value>
+          </Detail>
+          <Detail guid="a38be980-89fa-4b54-af1b-4e164e7fcaa3">
+            <Name>Host Controller ID</Name>
+            <Value>PCI\VEN_15AD&amp;DEV_0779</Value>
+          </Detail>
+          <Detail guid="e204ef16-2bdb-428e-84f7-9e60154282b5">
+            <Name>Host Controller Location</Name>
+            <Value>PCI bus 11, device 0, function 0</Value>
+          </Detail>
+          <Detail guid="593d5629-32b8-479e-8c5d-ab887bc96632">
+            <Name>Device ID</Name>
+            <Value>USB\VID_0E0F&amp;PID_0003</Value>
+          </Detail>
+          <Detail guid="17847da2-fd65-42d0-bd9d-67e11129c11a">
+            <Name>Port Path</Name>
+            <Value>5</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="109f745a-2d80-4358-b63a-0c7a2ae1afea">
+        <Name>USB Device not Entering Selective Suspend</Name>
+        <Severity>Error</Severity>
+        <Description>This device did not enter the USB Selective Suspend state.  Processor power management may be prevented when this USB device is not in the Selective Suspend state.  Note that this issue will not prevent the system from sleeping.</Description>
+        <Details>
+          <Detail guid="20e05e87-f844-47bf-ba24-61c9f4352443">
+            <Name>Device Name</Name>
+            <Value>USB Root Hub</Value>
+          </Detail>
+          <Detail guid="a38be980-89fa-4b54-af1b-4e164e7fcaa3">
+            <Name>Host Controller ID</Name>
+            <Value>PCI\VEN_15AD&amp;DEV_0774</Value>
+          </Detail>
+          <Detail guid="e204ef16-2bdb-428e-84f7-9e60154282b5">
+            <Name>Host Controller Location</Name>
+            <Value>PCI bus 2, device 0, function 0</Value>
+          </Detail>
+          <Detail guid="593d5629-32b8-479e-8c5d-ab887bc96632">
+            <Name>Device ID</Name>
+            <Value>USB\VID_15AD&amp;PID_0774</Value>
+          </Detail>
+          <Detail guid="17847da2-fd65-42d0-bd9d-67e11129c11a">
+            <Name>Port Path</Name>
+            <Value></Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="109f745a-2d80-4358-b63a-0c7a2ae1afea">
+        <Name>USB Device not Entering Selective Suspend</Name>
+        <Severity>Error</Severity>
+        <Description>This device did not enter the USB Selective Suspend state.  Processor power management may be prevented when this USB device is not in the Selective Suspend state.  Note that this issue will not prevent the system from sleeping.</Description>
+        <Details>
+          <Detail guid="20e05e87-f844-47bf-ba24-61c9f4352443">
+            <Name>Device Name</Name>
+            <Value>Generic Bluetooth Adapter</Value>
+          </Detail>
+          <Detail guid="a38be980-89fa-4b54-af1b-4e164e7fcaa3">
+            <Name>Host Controller ID</Name>
+            <Value>PCI\VEN_15AD&amp;DEV_0774</Value>
+          </Detail>
+          <Detail guid="e204ef16-2bdb-428e-84f7-9e60154282b5">
+            <Name>Host Controller Location</Name>
+            <Value>PCI bus 2, device 0, function 0</Value>
+          </Detail>
+          <Detail guid="593d5629-32b8-479e-8c5d-ab887bc96632">
+            <Name>Device ID</Name>
+            <Value>USB\VID_0E0F&amp;PID_0008</Value>
+          </Detail>
+          <Detail guid="17847da2-fd65-42d0-bd9d-67e11129c11a">
+            <Name>Port Path</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="2780e964-4950-4934-87a9-f0feb65eac7d">
+            <Name>Reason</Name>
+            <Value>This Bluetooth USB device does not support selective suspend because it is not remote wake capable.</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="73494aab-f271-4b0f-8402-c6236de6c31a">
+    <Name>CPU Utilization</Name>
+    <AnalysisLog>
+      <LogEntry guid="04a0d38a-9d87-4859-bffb-e5d7c57a62b1">
+        <Name>Processor utilization is moderate</Name>
+        <Severity>Warning</Severity>
+        <Description>The average processor utilization during the trace was moderate.  The system will consume less power when the average processor utilization is very low.  Review processor utilization for individual processes to determine which applications and services contribute the most to total processor utilization.</Description>
+        <Details>
+          <Detail guid="f07d9345-fd64-4899-a8e0-0100e9a4d904">
+            <Name>Average Utilization (%)</Name>
+            <Value>2.51</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="f9dabcaa-e040-411f-8c32-ced54cc665cc">
+        <Name>Individual process with significant processor utilization.</Name>
+        <Severity>Warning</Severity>
+        <Description>This process is responsible for a significant portion of the total processor utilization recorded during the trace.</Description>
+        <Details>
+          <Detail guid="e0ecec4a-fe31-4f33-a574-13b53bee3bc2">
+            <Name>Process Name</Name>
+            <Value>vmtoolsd.exe</Value>
+          </Detail>
+          <Detail guid="f6845605-8c29-4a82-8d6c-8c250f6707fd">
+            <Name>PID</Name>
+            <Value>652</Value>
+          </Detail>
+          <Detail guid="9c0f7e30-e8b5-43dd-8c3e-c45bf3101fba">
+            <Name>Average Utilization (%)</Name>
+            <Value>0.50</Value>
+          </Detail>
+          <Detail guid="75067548-7814-4e65-9533-13239cd92ecd">
+            <Name>Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\msxml6.dll</Value>
+          </Detail>
+          <Detail guid="acd9c46d-e149-489a-876d-e1707ed15134">
+            <Name>Average Module Utilization (%)</Name>
+            <Value>0.21</Value>
+          </Detail>
+          <Detail guid="75067548-7814-4e65-9533-13239cd92ecd">
+            <Name>Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+          <Detail guid="acd9c46d-e149-489a-876d-e1707ed15134">
+            <Name>Average Module Utilization (%)</Name>
+            <Value>0.13</Value>
+          </Detail>
+          <Detail guid="75067548-7814-4e65-9533-13239cd92ecd">
+            <Name>Module</Name>
+            <Value>\SystemRoot\system32\ntoskrnl.exe</Value>
+          </Detail>
+          <Detail guid="acd9c46d-e149-489a-876d-e1707ed15134">
+            <Name>Average Module Utilization (%)</Name>
+            <Value>0.11</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="f9dabcaa-e040-411f-8c32-ced54cc665cc">
+        <Name>Individual process with significant processor utilization.</Name>
+        <Severity>Warning</Severity>
+        <Description>This process is responsible for a significant portion of the total processor utilization recorded during the trace.</Description>
+        <Details>
+          <Detail guid="e0ecec4a-fe31-4f33-a574-13b53bee3bc2">
+            <Name>Process Name</Name>
+            <Value>svchost.exe</Value>
+          </Detail>
+          <Detail guid="f6845605-8c29-4a82-8d6c-8c250f6707fd">
+            <Name>PID</Name>
+            <Value>8700</Value>
+          </Detail>
+          <Detail guid="9c0f7e30-e8b5-43dd-8c3e-c45bf3101fba">
+            <Name>Average Utilization (%)</Name>
+            <Value>0.28</Value>
+          </Detail>
+          <Detail guid="75067548-7814-4e65-9533-13239cd92ecd">
+            <Name>Module</Name>
+            <Value>\SystemRoot\system32\ntoskrnl.exe</Value>
+          </Detail>
+          <Detail guid="acd9c46d-e149-489a-876d-e1707ed15134">
+            <Name>Average Module Utilization (%)</Name>
+            <Value>0.14</Value>
+          </Detail>
+          <Detail guid="75067548-7814-4e65-9533-13239cd92ecd">
+            <Name>Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\ntdll.dll</Value>
+          </Detail>
+          <Detail guid="acd9c46d-e149-489a-876d-e1707ed15134">
+            <Name>Average Module Utilization (%)</Name>
+            <Value>0.04</Value>
+          </Detail>
+          <Detail guid="75067548-7814-4e65-9533-13239cd92ecd">
+            <Name>Module</Name>
+            <Value>\Device\HarddiskVolume3\Windows\System32\StateRepository.Core.dll</Value>
+          </Detail>
+          <Detail guid="acd9c46d-e149-489a-876d-e1707ed15134">
+            <Name>Average Module Utilization (%)</Name>
+            <Value>0.02</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="5f159d5d-4dec-4caf-81e5-645d77e05c84">
+    <Name>Battery</Name>
+    <AnalysisLog>
+      <LogEntry guid="326fb9d3-85d4-4975-a922-f74e71c12360">
+        <Name>Analysis Success</Name>
+        <Severity>Informational</Severity>
+        <Description>Analysis was successful. No energy efficiency problems were found.  No information was returned.</Description>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="6ff333f5-43e4-4c08-8988-120f93e3463a">
+    <Name>Platform Power Management Capabilities</Name>
+    <AnalysisLog>
+      <LogEntry guid="3a4f65c6-ec8c-4f4e-b8d0-fe2718765394">
+        <Name>Supported Sleep States</Name>
+        <Severity>Informational</Severity>
+        <Description>Sleep states allow the computer to enter low-power modes after a period of inactivity.  The S3 sleep state is the default sleep state for Windows platforms.  The S3 sleep state consumes only enough power to preserve memory contents and allow the computer to resume working quickly.  Very few platforms support the S1 or S2 Sleep states.</Description>
+        <Details>
+          <Detail guid="f841c4ca-d356-40dc-85aa-fee0472532ea">
+            <Name>S1 Sleep Supported</Name>
+            <Value>true</Value>
+          </Detail>
+          <Detail guid="8734b678-1ecb-45f9-9da9-40ddff6a895e">
+            <Name>S2 Sleep Supported</Name>
+            <Value>false</Value>
+          </Detail>
+          <Detail guid="3e6d53b0-e5f4-46d6-8dff-62e49fabbe98">
+            <Name>S3 Sleep Supported</Name>
+            <Value>false</Value>
+          </Detail>
+          <Detail guid="680a26f8-fca6-45e3-9777-50115fcec807">
+            <Name>S4 Sleep Supported</Name>
+            <Value>false</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="5224c9e8-63b2-4b18-97ee-95adcf4ce9f6">
+        <Name>Connected Standby Support</Name>
+        <Severity>Informational</Severity>
+        <Description>Connected standby allows the computer to enter a low-power mode in which it is always on and connected. If supported, connected standby is used instead of system sleep states.</Description>
+        <Details>
+          <Detail guid="1b1c5fba-1d97-4e23-8ffd-0a4d89d38388">
+            <Name>Connected Standby Supported</Name>
+            <Value>false</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="b440ffc2-e196-46f3-ad05-60782edfef28">
+        <Name>System firmware (BIOS) does not support S3.</Name>
+        <Severity>Error</Severity>
+        <Description>The hardware in this computer does not support the S3 sleep state.</Description>
+      </LogEntry>
+      <LogEntry guid="7863f84b-33af-462b-aed1-8fb7b4d036a8">
+        <Name>System firmware (BIOS) does not support S4 (Hibernate).</Name>
+        <Severity>Error</Severity>
+        <Description>The hardware in this computer does not support the S4 (Hibernate) state.</Description>
+      </LogEntry>
+      <LogEntry guid="03d3ec20-2fd3-4580-8eb4-0b072f4f8fa4">
+        <Name>Processor Power Management Capabilities</Name>
+        <Severity>Informational</Severity>
+        <Description>Effective processor power management enables the computer to automatically balance performance and energy consumption.</Description>
+        <Details>
+          <Detail guid="faf9e6b5-0f59-442c-90b0-31b9bb24a9b4">
+            <Name>Group</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="021617e8-09b4-4ef4-80ca-f7c76291a950">
+            <Name>Index</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="d3c55d82-09d5-41e6-923b-7fd53887df2a">
+            <Name>Idle State Count</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="14036425-2dcd-4129-a173-a4ee5fa79862">
+            <Name>Idle State Type</Name>
+            <Value>ACPI Idle (C) States</Value>
+          </Detail>
+          <Detail guid="c118e17f-8532-491e-b8ec-c469083995d8">
+            <Name>Nominal Frequency (MHz)</Name>
+            <Value>2304</Value>
+          </Detail>
+          <Detail guid="adb2445a-ed2b-4a06-b114-77459a9d8dd1">
+            <Name>Maximum Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0f8f7ad4-875e-4c39-9faa-71b48d1ff03c">
+            <Name>Lowest Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="788964a9-9ada-4009-9adc-00f85b40dc8f">
+            <Name>Lowest Throttle Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0c3fb66a-c2cb-4d83-a63f-d11c83e20450">
+            <Name>Performance Controls Type</Name>
+            <Value>None</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="03d3ec20-2fd3-4580-8eb4-0b072f4f8fa4">
+        <Name>Processor Power Management Capabilities</Name>
+        <Severity>Informational</Severity>
+        <Description>Effective processor power management enables the computer to automatically balance performance and energy consumption.</Description>
+        <Details>
+          <Detail guid="faf9e6b5-0f59-442c-90b0-31b9bb24a9b4">
+            <Name>Group</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="021617e8-09b4-4ef4-80ca-f7c76291a950">
+            <Name>Index</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="d3c55d82-09d5-41e6-923b-7fd53887df2a">
+            <Name>Idle State Count</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="14036425-2dcd-4129-a173-a4ee5fa79862">
+            <Name>Idle State Type</Name>
+            <Value>ACPI Idle (C) States</Value>
+          </Detail>
+          <Detail guid="c118e17f-8532-491e-b8ec-c469083995d8">
+            <Name>Nominal Frequency (MHz)</Name>
+            <Value>2304</Value>
+          </Detail>
+          <Detail guid="adb2445a-ed2b-4a06-b114-77459a9d8dd1">
+            <Name>Maximum Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0f8f7ad4-875e-4c39-9faa-71b48d1ff03c">
+            <Name>Lowest Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="788964a9-9ada-4009-9adc-00f85b40dc8f">
+            <Name>Lowest Throttle Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0c3fb66a-c2cb-4d83-a63f-d11c83e20450">
+            <Name>Performance Controls Type</Name>
+            <Value>None</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="03d3ec20-2fd3-4580-8eb4-0b072f4f8fa4">
+        <Name>Processor Power Management Capabilities</Name>
+        <Severity>Informational</Severity>
+        <Description>Effective processor power management enables the computer to automatically balance performance and energy consumption.</Description>
+        <Details>
+          <Detail guid="faf9e6b5-0f59-442c-90b0-31b9bb24a9b4">
+            <Name>Group</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="021617e8-09b4-4ef4-80ca-f7c76291a950">
+            <Name>Index</Name>
+            <Value>2</Value>
+          </Detail>
+          <Detail guid="d3c55d82-09d5-41e6-923b-7fd53887df2a">
+            <Name>Idle State Count</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="14036425-2dcd-4129-a173-a4ee5fa79862">
+            <Name>Idle State Type</Name>
+            <Value>ACPI Idle (C) States</Value>
+          </Detail>
+          <Detail guid="c118e17f-8532-491e-b8ec-c469083995d8">
+            <Name>Nominal Frequency (MHz)</Name>
+            <Value>2304</Value>
+          </Detail>
+          <Detail guid="adb2445a-ed2b-4a06-b114-77459a9d8dd1">
+            <Name>Maximum Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0f8f7ad4-875e-4c39-9faa-71b48d1ff03c">
+            <Name>Lowest Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="788964a9-9ada-4009-9adc-00f85b40dc8f">
+            <Name>Lowest Throttle Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0c3fb66a-c2cb-4d83-a63f-d11c83e20450">
+            <Name>Performance Controls Type</Name>
+            <Value>None</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="03d3ec20-2fd3-4580-8eb4-0b072f4f8fa4">
+        <Name>Processor Power Management Capabilities</Name>
+        <Severity>Informational</Severity>
+        <Description>Effective processor power management enables the computer to automatically balance performance and energy consumption.</Description>
+        <Details>
+          <Detail guid="faf9e6b5-0f59-442c-90b0-31b9bb24a9b4">
+            <Name>Group</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="021617e8-09b4-4ef4-80ca-f7c76291a950">
+            <Name>Index</Name>
+            <Value>3</Value>
+          </Detail>
+          <Detail guid="d3c55d82-09d5-41e6-923b-7fd53887df2a">
+            <Name>Idle State Count</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="14036425-2dcd-4129-a173-a4ee5fa79862">
+            <Name>Idle State Type</Name>
+            <Value>ACPI Idle (C) States</Value>
+          </Detail>
+          <Detail guid="c118e17f-8532-491e-b8ec-c469083995d8">
+            <Name>Nominal Frequency (MHz)</Name>
+            <Value>2304</Value>
+          </Detail>
+          <Detail guid="adb2445a-ed2b-4a06-b114-77459a9d8dd1">
+            <Name>Maximum Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0f8f7ad4-875e-4c39-9faa-71b48d1ff03c">
+            <Name>Lowest Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="788964a9-9ada-4009-9adc-00f85b40dc8f">
+            <Name>Lowest Throttle Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0c3fb66a-c2cb-4d83-a63f-d11c83e20450">
+            <Name>Performance Controls Type</Name>
+            <Value>None</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="03d3ec20-2fd3-4580-8eb4-0b072f4f8fa4">
+        <Name>Processor Power Management Capabilities</Name>
+        <Severity>Informational</Severity>
+        <Description>Effective processor power management enables the computer to automatically balance performance and energy consumption.</Description>
+        <Details>
+          <Detail guid="faf9e6b5-0f59-442c-90b0-31b9bb24a9b4">
+            <Name>Group</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="021617e8-09b4-4ef4-80ca-f7c76291a950">
+            <Name>Index</Name>
+            <Value>4</Value>
+          </Detail>
+          <Detail guid="d3c55d82-09d5-41e6-923b-7fd53887df2a">
+            <Name>Idle State Count</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="14036425-2dcd-4129-a173-a4ee5fa79862">
+            <Name>Idle State Type</Name>
+            <Value>ACPI Idle (C) States</Value>
+          </Detail>
+          <Detail guid="c118e17f-8532-491e-b8ec-c469083995d8">
+            <Name>Nominal Frequency (MHz)</Name>
+            <Value>2304</Value>
+          </Detail>
+          <Detail guid="adb2445a-ed2b-4a06-b114-77459a9d8dd1">
+            <Name>Maximum Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0f8f7ad4-875e-4c39-9faa-71b48d1ff03c">
+            <Name>Lowest Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="788964a9-9ada-4009-9adc-00f85b40dc8f">
+            <Name>Lowest Throttle Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0c3fb66a-c2cb-4d83-a63f-d11c83e20450">
+            <Name>Performance Controls Type</Name>
+            <Value>None</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+      <LogEntry guid="03d3ec20-2fd3-4580-8eb4-0b072f4f8fa4">
+        <Name>Processor Power Management Capabilities</Name>
+        <Severity>Informational</Severity>
+        <Description>Effective processor power management enables the computer to automatically balance performance and energy consumption.</Description>
+        <Details>
+          <Detail guid="faf9e6b5-0f59-442c-90b0-31b9bb24a9b4">
+            <Name>Group</Name>
+            <Value>0</Value>
+          </Detail>
+          <Detail guid="021617e8-09b4-4ef4-80ca-f7c76291a950">
+            <Name>Index</Name>
+            <Value>5</Value>
+          </Detail>
+          <Detail guid="d3c55d82-09d5-41e6-923b-7fd53887df2a">
+            <Name>Idle State Count</Name>
+            <Value>1</Value>
+          </Detail>
+          <Detail guid="14036425-2dcd-4129-a173-a4ee5fa79862">
+            <Name>Idle State Type</Name>
+            <Value>ACPI Idle (C) States</Value>
+          </Detail>
+          <Detail guid="c118e17f-8532-491e-b8ec-c469083995d8">
+            <Name>Nominal Frequency (MHz)</Name>
+            <Value>2304</Value>
+          </Detail>
+          <Detail guid="adb2445a-ed2b-4a06-b114-77459a9d8dd1">
+            <Name>Maximum Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0f8f7ad4-875e-4c39-9faa-71b48d1ff03c">
+            <Name>Lowest Performance Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="788964a9-9ada-4009-9adc-00f85b40dc8f">
+            <Name>Lowest Throttle Percentage</Name>
+            <Value>100</Value>
+          </Detail>
+          <Detail guid="0c3fb66a-c2cb-4d83-a63f-d11c83e20450">
+            <Name>Performance Controls Type</Name>
+            <Value>None</Value>
+          </Detail>
+        </Details>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+  <Troubleshooter guid="6ff333f5-43e4-4c08-8988-120f93e3463a">
+    <Name>Device Drivers</Name>
+    <AnalysisLog>
+      <LogEntry guid="326fb9d3-85d4-4975-a922-f74e71c12360">
+        <Name>Analysis Success</Name>
+        <Severity>Informational</Severity>
+        <Description>Analysis was successful. No energy efficiency problems were found.  No information was returned.</Description>
+      </LogEntry>
+    </AnalysisLog>
+  </Troubleshooter>
+</EnergyReport>
