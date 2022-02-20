@@ -1,0 +1,95 @@
+***** Repair of database '.\SRUDB.dat' started [ESENT version 10.00.19044.0000, (ESENT[10.0.19044.0] RETAIL RTM MBCS)]
+
+search for 'ERROR:' to find errors
+search for 'WARNING:' to find warnings
+checking database header
+ERROR: database was not shutdown cleanly (Dirty Shutdown)
+database file ".\SRUDB.dat" is 3211264 bytes
+database file ".\SRUDB.dat" is 3211264 bytes on disk.
+Creating 64 threads
+checking SystemRoot
+SystemRoot (OE)
+SystemRoot (AE)
+checking system tables
+MSysObjects 
+MSysObjectsShadow 
+MSysObjects Name
+MSysObjects RootObjects
+rebuilding and comparing indexes
+checking logical consistency of system tables
+MSysObjects
+MSysObjectsShadow
+MSysObjids
+MSysLocales:	5148:	checking table "MSysLocales" (7)
+MSysLocales:	5148:	checking data
+MSysLocales:	5148:	integrity-check of table "MSysLocales" (7) finishes with error 0 (0x0) after 0 seconds
+MSysObjids:	17336:	checking table "MSysObjids" (6)
+SruDbCheckpointTable:	5148:	checking table "SruDbCheckpointTable" (10)
+MSysObjids:	17336:	checking data
+SruDbCheckpointTable:	5148:	checking data
+SruDbCheckpointTable:	5148:	checking index "IdSeqNumberIndex" (11)
+MSysObjids:	17336:	integrity-check of table "MSysObjids" (6) finishes with error 0 (0x0) after 0 seconds
+SruDbCheckpointTable:	5148:	rebuilding and comparing indexes
+SruDbCheckpointTable:	5148:	integrity-check of table "SruDbCheckpointTable" (10) finishes with error 0 (0x0) after 0 seconds
+SruDbIdMapTable:	17336:	checking table "SruDbIdMapTable" (8)
+SruDbIdMapTable:	17336:	checking data
+SruDbIdMapTable:	17336:	checking index "IdTypeIdBlob" (9)
+{5C8CF1C7-7257-4F13-B223-970EF5939312}:	5148:	checking table "{5C8CF1C7-7257-4F13-B223-970EF5939312}" (12)
+SruDbIdMapTable:	17336:	rebuilding and comparing indexes
+{5C8CF1C7-7257-4F13-B223-970EF5939312}:	5148:	checking data
+SruDbIdMapTable:	17336:	integrity-check of table "SruDbIdMapTable" (8) finishes with error 0 (0x0) after 0 seconds
+{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}:	17336:	checking table "{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}" (15)
+{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}:	17336:	checking data
+{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}:	17336:	checking index "AutoIncIdIndex" (17)
+{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}:	17336:	checking index "UserIdTimeStamp" (16)
+{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}:	17336:	rebuilding and comparing indexes
+{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}:	17336:	integrity-check of table "{7ACBBAA3-D029-4BE4-9A7A-0885927F1D8F}" (15) finishes with error 0 (0x0) after 0 seconds
+{973F5D5C-1D90-4944-BE8E-24B94231A174}:	17336:	checking table "{973F5D5C-1D90-4944-BE8E-24B94231A174}" (18)
+{973F5D5C-1D90-4944-BE8E-24B94231A174}:	17336:	checking data
+{973F5D5C-1D90-4944-BE8E-24B94231A174}:	17336:	checking index "AutoIncIdIndex" (20)
+{973F5D5C-1D90-4944-BE8E-24B94231A174}:	17336:	checking index "UserIdTimeStamp" (19)
+{973F5D5C-1D90-4944-BE8E-24B94231A174}:	17336:	rebuilding and comparing indexes
+{973F5D5C-1D90-4944-BE8E-24B94231A174}:	17336:	integrity-check of table "{973F5D5C-1D90-4944-BE8E-24B94231A174}" (18) finishes with error 0 (0x0) after 0 seconds
+{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}:	17336:	checking table "{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}" (21)
+{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}:	17336:	checking data
+{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}:	17336:	checking index "AutoIncIdIndex" (23)
+{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}:	17336:	checking index "UserIdTimeStamp" (22)
+{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}:	17336:	rebuilding and comparing indexes
+{5C8CF1C7-7257-4F13-B223-970EF5939312}:	5148:	checking index "AutoIncIdIndex" (14)
+{5C8CF1C7-7257-4F13-B223-970EF5939312}:	5148:	checking index "UserIdTimeStamp" (13)
+{5C8CF1C7-7257-4F13-B223-970EF5939312}:	5148:	rebuilding and comparing indexes
+{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}:	17336:	integrity-check of table "{D10CA2FE-6FCF-4F6D-848E-B2E99266FA89}" (21) finishes with error 0 (0x0) after 0 seconds
+{DD6636C4-8929-4683-974E-22C046A43763}:	17336:	checking table "{DD6636C4-8929-4683-974E-22C046A43763}" (24)
+{DD6636C4-8929-4683-974E-22C046A43763}:	17336:	checking data
+{DD6636C4-8929-4683-974E-22C046A43763}:	17336:	checking index "AutoIncIdIndex" (26)
+{DD6636C4-8929-4683-974E-22C046A43763}:	17336:	checking index "UserIdTimeStamp" (25)
+{DD6636C4-8929-4683-974E-22C046A43763}:	17336:	rebuilding and comparing indexes
+{DD6636C4-8929-4683-974E-22C046A43763}:	17336:	integrity-check of table "{DD6636C4-8929-4683-974E-22C046A43763}" (24) finishes with error 0 (0x0) after 0 seconds
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}:	17336:	checking table "{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}" (27)
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}:	17336:	checking data
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}:	17336:	checking index "AutoIncIdIndex" (29)
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}:	17336:	checking index "UserIdTimeStamp" (28)
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}:	17336:	rebuilding and comparing indexes
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}:	17336:	integrity-check of table "{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}" (27) finishes with error 0 (0x0) after 0 seconds
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT:	17336:	checking table "{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT" (30)
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT:	17336:	checking data
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT:	17336:	checking index "AutoIncIdIndex" (32)
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT:	17336:	checking index "UserIdTimeStamp" (31)
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT:	17336:	rebuilding and comparing indexes
+{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT:	17336:	integrity-check of table "{FEE4E14F-02A9-4550-B5CE-5FA2DA202E37}LT" (30) finishes with error 0 (0x0) after 0 seconds
+{5C8CF1C7-7257-4F13-B223-970EF5939312}:	5148:	integrity-check of table "{5C8CF1C7-7257-4F13-B223-970EF5939312}" (12) finishes with error 0 (0x0) after 0 seconds
+WARNING: Database file is too big (expected 766 pages, file is 782 pages)
+changing signature of .\SRUDB.dat
+new DB signature is:
+Create time:Create time:02/20/2022 03:38:21.163 Rand:46449612 Computer:
+scanning the database from page 1 to page 782
+changing signature of .\SRUDB.dat
+new DB signature is:
+Create time:Create time:02/20/2022 03:38:21.241 Rand:252790437 Computer:
+
+Repair completed. Database corruption has been repaired!
+
+
+
+***** Eseutil completed in 2 seconds
+
