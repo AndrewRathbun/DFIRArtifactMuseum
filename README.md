@@ -1,4 +1,7 @@
 # DFIRArtifactMuseum
+
+<img src="https://github.com/AndrewRathbun/DFIRArtifactMuseum/blob/main/logo.png?raw=true" width="500">
+
 ## Description
 The DFIR Artifact Museum was created to provide a centralized location for examples of artifacts from various operating systems. 
 
