@@ -1,22 +1,25 @@
+
 <p align="center">
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum">
-    <img src="https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/main/DFIRArtifactMuseumLogo.jpg" alt="Logo" width="329" height="250">
-  </a>
-    <h3 align="center">DFIR Artifact Museum</h3>
-    <p align="center">
-  <a href="LICENSE" alt="License">
-    <img src="https://img.shields.io/github/license/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/issues" alt="Issues">
-    <img src="https://img.shields.io/github/issues/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/graphs/contributors" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/pulls?q=is%3Apr+is%3Aclosed" alt="Closed PRs">
-    <img src="https://img.shields.io/github/issues-pr-closed/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/network/members/" alt="Forks">
-		<img src="https://img.shields.io/github/forks/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/stargazers/" alt="Stars">
-		<img src="https://img.shields.io/github/stars/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  </p>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum">
+   <img src="https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/main/DFIRArtifactMuseumLogo.jpg" alt="Logo" width="329" height="250">
+   </a>
+<h3 align="center">DFIR Artifact Museum</h3>
+<p align="center">
+   <a href="LICENSE" alt="License">
+   <img src="https://img.shields.io/github/license/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/issues" alt="Issues">
+   <img src="https://img.shields.io/github/issues/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/graphs/contributors" alt="Contributors">
+   <img src="https://img.shields.io/github/contributors/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/pulls?q=is%3Apr+is%3Aclosed" alt="Closed PRs">
+   <img src="https://img.shields.io/github/issues-pr-closed/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/network/members/" alt="Forks">
+   <img src="https://img.shields.io/github/forks/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/stargazers/" alt="Stars">
+   <img src="https://img.shields.io/github/stars/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/watchers/" alt="Watchers">
+   <img src="https://img.shields.io/github/watchers/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+</p>
 </p>
 
 ## Description
