@@ -1,22 +1,25 @@
+
 <p align="center">
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum">
-    <img src="https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/main/DFIRArtifactMuseumLogo.jpg" alt="Logo" width="329" height="250">
-  </a>
-    <h3 align="center">DFIR Artifact Museum</h3>
-    <p align="center">
-  <a href="LICENSE" alt="License">
-    <img src="https://img.shields.io/github/license/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/issues" alt="Issues">
-    <img src="https://img.shields.io/github/issues/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/graphs/contributors" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/pulls?q=is%3Apr+is%3Aclosed" alt="Closed PRs">
-    <img src="https://img.shields.io/github/issues-pr-closed/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/network/members/" alt="Forks">
-		<img src="https://img.shields.io/github/forks/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/stargazers/" alt="Stars">
-		<img src="https://img.shields.io/github/stars/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
-  </p>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum">
+   <img src="https://raw.githubusercontent.com/AndrewRathbun/DFIRArtifactMuseum/main/DFIRArtifactMuseumLogo.jpg" alt="Logo" width="329" height="250">
+   </a>
+<h3 align="center">DFIR Artifact Museum</h3>
+<p align="center">
+   <a href="LICENSE" alt="License">
+   <img src="https://img.shields.io/github/license/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/issues" alt="Issues">
+   <img src="https://img.shields.io/github/issues/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/graphs/contributors" alt="Contributors">
+   <img src="https://img.shields.io/github/contributors/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/pulls?q=is%3Apr+is%3Aclosed" alt="Closed PRs">
+   <img src="https://img.shields.io/github/issues-pr-closed/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/network/members/" alt="Forks">
+   <img src="https://img.shields.io/github/forks/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/stargazers/" alt="Stars">
+   <img src="https://img.shields.io/github/stars/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+   <a href="https://github.com/AndrewRathbun/DFIRArtifactMuseum/watchers/" alt="Watchers">
+   <img src="https://img.shields.io/github/watchers/AndrewRathbun/DFIRArtifactMuseum?style=flat-square" /></a>
+</p>
 </p>
 
 ## Description
@@ -41,3 +44,7 @@ Please check out [CONTRIBUTING.md](https://github.com/AndrewRathbun/DFIRArtifact
 * [EVTX-ETW-Resources](https://github.com/nasbench/EVTX-ETW-Resources) - This repo contains XML and CSV files that contain every Event ID, Event Message, etc for every Event Provider for nearly every major version of Windows 8, 10, and 11 and Windows Server 2016, 2019, and 2022. Did you know most Event Providers in Windows are disabled? Now you have visibility into every single one that ships with Windows. Additionally, you'll never have to wonder what an Event ID means for a Provider that's native to Windows. Just search the repo and your answer will be there!
 * [VanillaWindowsRegistryHives](https://github.com/AndrewRathbun/VanillaWindowsRegistryHives) - This repo contains zip files containing raw registry hives post-clean install and JSON dumps of these registry hives (from the topmost ROOT key) for nearly every major version of Windows 8, 10, and 11 and Windows Server 2016, 2019, and 2022. Great way for seeing what's normal within the Registry before user activity kicks in.
 * [VanillaWindowsReference](https://github.com/AndrewRathbun/VanillaWindowsReference) - This repo contains a CSV file that consists of a directory listing of every file that comes in a clean install for for nearly every major version of Windows 8, 10, and 11 and Windows Server 2016, 2019, and 2022. This includes filenames, parent folders, hash values, file sizes, etc for EVERY file. A perfect way to see where files are supposed to be located on Windows system.
+
+## Acknowledgements
+
+Special thank you to [Kevin Pagano](https://twitter.com/KevinPagano3) for the [awesome logo](https://github.com/AndrewRathbun/DFIRArtifactMuseum/blob/main/DFIRArtifactMuseumLogo.jpg)!
