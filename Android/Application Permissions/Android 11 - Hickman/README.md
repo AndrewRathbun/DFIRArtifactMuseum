@@ -1,4 +1,4 @@
-# Application Permissions Paths
+# Android 11 - Application Permissions Paths
 
 | **Artifact**  | **Path**                  |
 |---------------|---------------------------|
