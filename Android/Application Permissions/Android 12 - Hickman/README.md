@@ -1,8 +1,7 @@
-# Paths
+# Application Permissions Paths
 
-## appops.xml
-data/system/appops.xml
-## packages.list
-data/system/packages.list
-## packages.xml
-data/system/packages.xml
+| **Artifact**  | **Path**                  |
+|---------------|---------------------------|
+| appops.xml    | data/system/appops.xml    |
+| packages.list | data/system/packages.list |
+| packages.xml  | data/system/packages.xml  |
