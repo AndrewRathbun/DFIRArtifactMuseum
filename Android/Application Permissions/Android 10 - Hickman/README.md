@@ -1,4 +1,4 @@
-# Application Permissions Paths
+# Android 10 - Application Permissions Paths
 
 | **Artifact**  | **Path**                  |
 |---------------|---------------------------|
