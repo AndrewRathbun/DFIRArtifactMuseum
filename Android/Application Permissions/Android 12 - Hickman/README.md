@@ -1,4 +1,4 @@
-# Application Permissions Paths
+# Android 12 Application Permissions Paths
 
 | **Artifact**  | **Path**                  |
 |---------------|---------------------------|
