@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WifiConfigStoreData>
+<int name="Version" value="2" />
+<Integrity>
+<byte-array name="EncryptedData" num="48">e71394aa95f2d767a1c46e787ca99c0478e12467241553a8551005969fd38294e8a4082529d69a15d5bc49f28ca21a54</byte-array>
+<byte-array name="IV" num="12">18234dad790da5cb3ba8eceb</byte-array>
+</Integrity>
+<NetworkList />
+<MacAddressMap>
+<map name="MacMapEntry">
+<string name="&quot;CcookiesDcastleR5&quot;WPA_PSK">ae:f6:c7:a8:a5:c2</string>
+</map>
+</MacAddressMap>
+<PasspointConfigData>
+<long name="ProviderIndex" value="0" />
+</PasspointConfigData>
+</WifiConfigStoreData>
