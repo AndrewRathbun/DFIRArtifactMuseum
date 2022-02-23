@@ -2,4 +2,4 @@
 
 | **Artifact** | **Path**                                                           |
 |--------------|--------------------------------------------------------------------|
-| downloads.db | .\data\data\com.android.providers.downloads\databases\downloads.db |
+| downloads.db | `.\data\data\com.android.providers.downloads\databases\downloads.db` |

@@ -2,5 +2,5 @@
 
 | **Artifact**        | **Path**                             |
 |---------------------|--------------------------------------|
-| softap.conf         | .\data\misc\wifi\softap.conf         |
-| WifiConfigStore.xml | .\data\misc\wifi\WifiConfigStore.xml |
+| softap.conf         | `.\data\misc\wifi\softap.conf`         |
+| WifiConfigStore.xml | `.\data\misc\wifi\WifiConfigStore.xml` |

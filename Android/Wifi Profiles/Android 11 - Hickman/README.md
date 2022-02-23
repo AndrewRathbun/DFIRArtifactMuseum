@@ -2,5 +2,5 @@
 
 | **Artifact**              | **Path**                                                         |
 |---------------------------|------------------------------------------------------------------|
-| WifiConfigStore.xml       | .\data\misc*\apexdata\com.android.wifi\WifiConfigStore.xml       |
-| WifiConfigStoreSoftAp.xml | .\data\misc*\apexdata\com.android.wifi\WifiConfigStoreSoftAp.xml |
+| WifiConfigStore.xml       | `.\data\misc*\apexdata\com.android.wifi\WifiConfigStore.xml`       |
+| WifiConfigStoreSoftAp.xml | `.\data\misc*\apexdata\com.android.wifi\WifiConfigStoreSoftAp.xml` |

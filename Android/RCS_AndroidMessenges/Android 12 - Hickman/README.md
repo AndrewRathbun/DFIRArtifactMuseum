@@ -2,4 +2,4 @@
 
 | **Artifact** | **Path**                                                         |
 |--------------|------------------------------------------------------------------|
-| bugle_db     | .\data\data\com.google.android.apps\messaging\databases\bugle_db |
+| bugle_db     | `.\data\data\com.google.android.apps\messaging\databases\bugle_db` |
