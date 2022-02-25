@@ -48,3 +48,11 @@ Please check out [CONTRIBUTING.md](https://github.com/AndrewRathbun/DFIRArtifact
 ## Acknowledgements
 
 Special thank you to [Kevin Pagano](https://twitter.com/KevinPagano3) for the [awesome logo](https://github.com/AndrewRathbun/DFIRArtifactMuseum/blob/main/DFIRArtifactMuseumLogo.jpg)!
+
+## Licensing
+
+* Android 7-10 Images - [Digital Corpora](https://digitalcorpora.org/corpora/cell-phones)
+* Android 11-13 - [Josh Hickman's blog](https://thebinaryhick.blog/) (with explicit permission)
+* Belkasoft CTF artifacts - [Belkasoft CTF - Insider Threat](https://belkasoft.com/ctf_march/)
+* Eric Zimmerman's artifacts - Eric Zimmerman (with explicit permission)
+* 
