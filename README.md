@@ -55,6 +55,16 @@ Special thank you to [Kevin Pagano](https://twitter.com/KevinPagano3) for the [a
 * Android 11-12 - [Josh Hickman's blog](https://thebinaryhick.blog/) (with explicit permission)
 * Belkasoft CTF artifacts - [Belkasoft CTF - Insider Threat](https://belkasoft.com/ctf_march/)
 * Eric Zimmerman's artifacts - Eric Zimmerman (with explicit permission)
+   * [AppCompatCacheParser](https://github.com/EricZimmerman/AppCompatCacheParser/tree/master/AppCompatCacheParserTest/TestFiles)
+   * [JumpList](https://github.com/EricZimmerman/JumpList/tree/master/JumpList.Test/TestFiles)
+   * [Lnk](https://github.com/EricZimmerman/Lnk/tree/master/Lnk.Test/TestFiles)
+   * [MFT](https://github.com/EricZimmerman/MFT/tree/master/MFT.Test/TestFileshttps://github.com/EricZimmerman/MFT/tree/master/MFT.Test/TestFiles)
+   * [OleCf](https://github.com/EricZimmerman/OleCf/tree/master/OleCf.Test/TestFiles)
+   * [Prefetch](https://github.com/EricZimmerman/Prefetch/tree/master/Prefetch.Test/TestFiles)
+   * [RBCmd](https://github.com/EricZimmerman/RBCmd/tree/master/RecycleBin.Test/TestFiles)
+   * [RecentFileCacheParser](https://github.com/EricZimmerman/RecentFileCacheParser/tree/master/RecentFileCache.Test/Files)
+   * [Registry](https://github.com/EricZimmerman/Registry/tree/master/Registry.Test)
+   * [SDB](https://github.com/EricZimmerman/SDB/tree/master/SBD.Test/Test%20Files)
 
 Please see Digital Corpora's [Research Paper](https://simson.net/clips/academic/2009.DFRWS.Corpora.pdf) on `Bringing science to digital forensics with standardized
 forensic corpora`
