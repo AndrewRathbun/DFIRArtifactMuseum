@@ -49,10 +49,12 @@ Please check out [CONTRIBUTING.md](https://github.com/AndrewRathbun/DFIRArtifact
 
 Special thank you to [Kevin Pagano](https://twitter.com/KevinPagano3) for the [awesome logo](https://github.com/AndrewRathbun/DFIRArtifactMuseum/blob/main/DFIRArtifactMuseumLogo.jpg)!
 
-## Licensing
+## Licensing/Source Attribution
 
-* Android 7-10 Images - [Digital Corpora](https://digitalcorpora.org/corpora/cell-phones)
-* Android 11-13 - [Josh Hickman's blog](https://thebinaryhick.blog/) (with explicit permission)
+* Android 7-10 Images - [Digital Corpora](https://digitalcorpora.org/corpora/cell-phones) 
+* Android 11-12 - [Josh Hickman's blog](https://thebinaryhick.blog/) (with explicit permission)
 * Belkasoft CTF artifacts - [Belkasoft CTF - Insider Threat](https://belkasoft.com/ctf_march/)
 * Eric Zimmerman's artifacts - Eric Zimmerman (with explicit permission)
-* 
+
+Please see Digital Corpora's [Research Paper](https://simson.net/clips/academic/2009.DFRWS.Corpora.pdf) on `Bringing science to digital forensics with standardized
+forensic corpora`
