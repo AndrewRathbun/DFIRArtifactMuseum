@@ -53,7 +53,7 @@ Special thank you to [Kevin Pagano](https://twitter.com/KevinPagano3) for the [a
 
 * Android 7-10 Images - [Digital Corpora](https://digitalcorpora.org/corpora/cell-phones) (with explicit permission from [Josh Hickman](https://twitter.com/josh_hickman1) and under public domain)
 * Android 11-12 - [Josh Hickman's blog](https://thebinaryhick.blog/) (with explicit permission)
-* Belkasoft CTF artifacts - [Belkasoft CTF - Insider Threat](https://belkasoft.com/ctf_march/)
+* Belkasoft CTF artifacts - [Belkasoft CTF - Insider Threat](https://belkasoft.com/ctf_march/) (with explicit permission)
 * Eric Zimmerman's artifacts - [Eric Zimmerman](https://twitter.com/EricRZimmerman) (with explicit permission)
    * [AppCompatCacheParser](https://github.com/EricZimmerman/AppCompatCacheParser/tree/master/AppCompatCacheParserTest/TestFiles)
    * [JumpList](https://github.com/EricZimmerman/JumpList/tree/master/JumpList.Test/TestFiles)
