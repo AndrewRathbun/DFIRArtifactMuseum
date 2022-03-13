@@ -1,0 +1,436 @@
+***** Repair of database '.\Windows.edb' started [ESENT version 10.00.19044.0000, (ESENT[10.0.19044.0] RETAIL RTM MBCS)]
+
+search for 'ERROR:' to find errors
+search for 'WARNING:' to find warnings
+checking database header
+ERROR: database was not shutdown cleanly (Dirty Shutdown)
+database file ".\Windows.edb" is 25165824 bytes
+database file ".\Windows.edb" is 25165824 bytes on disk.
+Creating 64 threads
+checking SystemRoot
+SystemRoot (OE)
+ERROR: page 2: dbtime is larger than database dbtime (0x3eb4, 0x129f)
+SystemRoot (AE)
+ERROR: page 3: dbtime is larger than database dbtime (0x3f40, 0x129f)
+checking system tables
+MSysObjects 
+MSysObjectsShadow 
+MSysObjects:	22516:	ERROR: page 14: dbtime is larger than database dbtime (0x3f8e, 0x129f)
+MSysObjects Name
+MSysObjects RootObjects
+MSysObjectsShadow:	22516:	ERROR: page 28: dbtime is larger than database dbtime (0x42f9, 0x129f)
+MSysObjects:	22516:	ERROR: page 18: dbtime is larger than database dbtime (0x3f8d, 0x129f)
+MSysObjects:	22516:	ERROR: page 10: dbtime is larger than database dbtime (0x3f8c, 0x129f)
+rebuilding and comparing indexes
+checking logical consistency of system tables
+MSysObjects
+ERROR: Invalid object type for object Partition (2, expected 1)
+ERROR: MSysObjects is logically corrupted
+MSysObjectsShadow
+ERROR: error -1019 trying to read page 255
+ERROR: error -1019 trying to read page 255
+ERROR: Catalog entry corruption: page 255 belongs to 0 (expected 46)
+ERROR: MSysObjectsShadow is logically corrupted
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:03/13/2022 20:11:51.146 Rand:525252781 Computer:
+repairing database root
+Global OwnExt:  763 pages ending at 766
+rebuilding catalogs
+scanning the database for catalog records from page 1 to page 766
+1642 catalog records found. 881 unique
+ERROR: Invalid object type for object Partition (2, expected 1)
+ERROR: error -1019 trying to read page 255
+ERROR: error -1019 trying to read page 255
+ERROR: Catalog entry corruption: page 255 belongs to 0 (expected 46)
+ERROR: error -1019 trying to read page 256
+ERROR: error -1019 trying to read page 256
+ERROR: Catalog entry corruption: page 256 belongs to 0 (expected 47)
+Deleting corrupted catalog entries
+Deleting a catalog entry (20 1 Partition)
+Deleting a catalog entry (20 2 PID)
+Deleting a catalog entry (20 3 WidStart)
+Deleting a catalog entry (20 256 szKey)
+Deleting a catalog entry (20 257 Data)
+Deleting a catalog entry (20 20 IndexDataIdx)
+deleting (46 46 ) (46 46 IndexDataIdx)
+Deleting a catalog entry (46 46 IndexDataIdx)
+deleting (47 47 ) (47 47 IndexOccIdx)
+Deleting a catalog entry (47 47 IndexOccIdx)
+Repaired the logical inconsistency of the catalog
+rebuilding MSysObjectsShadow from MSysObjects
+rebuilding indexes for MSysObjects
+creating new FDP with 3 pages starting at 10
+creating new FDP with 3 pages starting at 7
+Database is now 766 pages
+checking SystemRoot
+ERROR: page 1: dbtime is larger than database dbtime (0x8, 0x2)
+SystemRoot (OE)
+ERROR: page 2: dbtime is larger than database dbtime (0x15c, 0x2)
+SystemRoot (AE)
+ERROR: page 3: dbtime is larger than database dbtime (0x666, 0x2)
+ERROR: page 5: dbtime is larger than database dbtime (0x15f, 0x2)
+ERROR: page 6: dbtime is larger than database dbtime (0x90b, 0x2)
+ERROR: page 8: dbtime is larger than database dbtime (0x90c, 0x2)
+ERROR: page 9: dbtime is larger than database dbtime (0x94d, 0x2)
+ERROR: page 11: dbtime is larger than database dbtime (0x713, 0x2)
+ERROR: page 12: dbtime is larger than database dbtime (0x713, 0x2)
+ERROR: page 25: dbtime is larger than database dbtime (0x667, 0x2)
+ERROR: page 26: dbtime is larger than database dbtime (0x669, 0x2)
+CatalogManager_Properties:	22516:	checking table "CatalogManager_Properties" (8)
+CatalogManager_Properties:	22516:	checking data
+CatalogManager_Properties:	22516:	ERROR: page 31: dbtime is larger than database dbtime (0x163, 0x2)
+CatalogStorageManager:	26664:	checking table "CatalogStorageManager" (9)
+CatalogStorageManager:	26664:	checking data
+CatalogStorageManager:	26664:	ERROR: page 32: dbtime is larger than database dbtime (0x217, 0x2)
+CatalogManager_Properties:	22516:	integrity-check of table "CatalogManager_Properties" (8) finishes with error 0 (0x0) after 0 seconds
+CatalogStorageManager:	26664:	integrity-check of table "CatalogStorageManager" (9) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	22516:	checking table "ChangeTracking" (38)
+MSysLocales:	26664:	checking table "MSysLocales" (7)
+MSysLocales:	26664:	checking data
+MSysLocales:	26664:	ERROR: page 30: dbtime is larger than database dbtime (0x1ce, 0x2)
+MSysLocales:	26664:	integrity-check of table "MSysLocales" (7) finishes with error 0 (0x0) after 0 seconds
+MSysObjids:	26664:	checking table "MSysObjids" (6)
+MSysObjids:	26664:	checking data
+MSysObjids:	26664:	ERROR: page 29: dbtime is larger than database dbtime (0x3f8b, 0x2)
+ChangeTracking:	22516:	ERROR: page 196: dbtime is larger than database dbtime (0x265c, 0x2)
+MSysObjids:	26664:	integrity-check of table "MSysObjids" (6) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	22516:	ERROR: page 197: dbtime is larger than database dbtime (0x2776, 0x2)
+SystemIndex_1:	26664:	checking table "SystemIndex_1" (16)
+ChangeTracking:	22516:	checking data
+ChangeTracking:	22516:	ERROR: page 178: dbtime is larger than database dbtime (0x2779, 0x2)
+SystemIndex_1:	26664:	ERROR: page 67: dbtime is larger than database dbtime (0x1831, 0x2)
+SystemIndex_1:	26664:	ERROR: page 68: dbtime is larger than database dbtime (0x1833, 0x2)
+SystemIndex_1:	26664:	checking long value tree (19)
+ChangeTracking:	22516:	ERROR: page 198: dbtime is larger than database dbtime (0x25a2, 0x2)
+SystemIndex_1:	26664:	ERROR: page 142: dbtime is larger than database dbtime (0x1834, 0x2)
+SystemIndex_1:	26664:	ERROR: page 143: dbtime is larger than database dbtime (0x3ea9, 0x2)
+SystemIndex_1:	26664:	ERROR: page 70: dbtime is larger than database dbtime (0x3eac, 0x2)
+ChangeTracking:	22516:	ERROR: page 199: dbtime is larger than database dbtime (0x26c3, 0x2)
+ChangeTracking:	22516:	ERROR: page 204: dbtime is larger than database dbtime (0x26fb, 0x2)
+SystemIndex_1:	26664:	ERROR: page 144: dbtime is larger than database dbtime (0x3f74, 0x2)
+ChangeTracking:	22516:	ERROR: page 203: dbtime is larger than database dbtime (0x26a7, 0x2)
+ChangeTracking:	22516:	ERROR: page 202: dbtime is larger than database dbtime (0x2661, 0x2)
+ChangeTracking:	22516:	ERROR: page 201: dbtime is larger than database dbtime (0x2658, 0x2)
+SystemIndex_1:	26664:	ERROR: page 145: dbtime is larger than database dbtime (0x3f86, 0x2)
+ChangeTracking:	22516:	ERROR: page 200: dbtime is larger than database dbtime (0x2806, 0x2)
+SystemIndex_1:	26664:	ERROR: page 146: dbtime is larger than database dbtime (0x3f89, 0x2)
+SystemIndex_1:	26664:	checking data
+SystemIndex_1:	26664:	ERROR: page 42: dbtime is larger than database dbtime (0x36d6, 0x2)
+ChangeTracking:	22516:	ERROR: page 207: dbtime is larger than database dbtime (0x2804, 0x2)
+SystemIndex_1:	26664:	checking LV refcounts
+SystemIndex_1:	26664:	WARNING: orphaned LV (lid 0x800000008000000d, refcount 1). Offline defragmentation should fix this.
+SystemIndex_1:	26664:	integrity-check of table "SystemIndex_1" (16) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	22516:	ERROR: page 206: dbtime is larger than database dbtime (0x27bb, 0x2)
+SystemIndex_1_DATA_10:	26664:	checking table "SystemIndex_1_DATA_10" (32)
+SystemIndex_1_DATA_10:	26664:	checking data
+SystemIndex_1_DATA_10:	26664:	ERROR: page 149: dbtime is larger than database dbtime (0x1870, 0x2)
+SystemIndex_1_DATA_10:	26664:	integrity-check of table "SystemIndex_1_DATA_10" (32) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	22516:	ERROR: page 205: dbtime is larger than database dbtime (0x38c7, 0x2)
+SystemIndex_1_DATA_11:	26664:	checking table "SystemIndex_1_DATA_11" (34)
+SystemIndex_1_DATA_11:	26664:	checking data
+SystemIndex_1_DATA_11:	26664:	ERROR: page 151: dbtime is larger than database dbtime (0x18ca, 0x2)
+SystemIndex_1_DATA_11:	26664:	integrity-check of table "SystemIndex_1_DATA_11" (34) finishes with error 0 (0x0) after 0 seconds
+ChangeTracking:	22516:	integrity-check of table "ChangeTracking" (38) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_12:	26664:	checking table "SystemIndex_1_DATA_12" (36)
+SystemIndex_1_DATA_12:	26664:	checking data
+SystemIndex_1_DATA_13:	22516:	checking table "SystemIndex_1_DATA_13" (40)
+SystemIndex_1_DATA_12:	26664:	ERROR: page 153: dbtime is larger than database dbtime (0x192d, 0x2)
+SystemIndex_1_DATA_12:	26664:	integrity-check of table "SystemIndex_1_DATA_12" (36) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_14:	26664:	checking table "SystemIndex_1_DATA_14" (42)
+SystemIndex_1_DATA_14:	26664:	checking data
+SystemIndex_1_DATA_14:	26664:	ERROR: page 244: dbtime is larger than database dbtime (0x30ee, 0x2)
+SystemIndex_1_DATA_14:	26664:	integrity-check of table "SystemIndex_1_DATA_14" (42) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_15:	26664:	checking table "SystemIndex_1_DATA_15" (44)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 221: dbtime is larger than database dbtime (0x2dca, 0x2)
+SystemIndex_1_DATA_15:	26664:	checking data
+SystemIndex_1_DATA_15:	26664:	ERROR: page 246: dbtime is larger than database dbtime (0x36b8, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 222: dbtime is larger than database dbtime (0x2dd7, 0x2)
+SystemIndex_1_DATA_15:	26664:	integrity-check of table "SystemIndex_1_DATA_15" (44) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_13:	22516:	checking data
+SystemIndex_1_DATA_16:	26664:	checking table "SystemIndex_1_DATA_16" (46)
+SystemIndex_1_DATA_16:	26664:		Data table will be rebuilt
+SystemIndex_1_DATA_16:	26664:		Long-Value table will be rebuilt
+SystemIndex_1_DATA_16:	26664:		Indexes will be rebuilt
+SystemIndex_1_DATA_13:	22516:	ERROR: page 219: dbtime is larger than database dbtime (0x2dda, 0x2)
+SystemIndex_1_DATA_16:	26664:		Long-Value refcounts will be rebuilt
+SystemIndex_1_DATA_16:	26664:	table "SystemIndex_1_DATA_16" is corrupted
+SystemIndex_1_DATA_16:	26664:		data: 46 (255)
+SystemIndex_1_DATA_16:	26664:	ERROR: integrity-check of table "SystemIndex_1_DATA_16" (46) finishes with error -1206 (0xfffffb4a) after 0 seconds
+SystemIndex_1_DATA_2:	26664:	checking table "SystemIndex_1_DATA_2" (22)
+SystemIndex_1_DATA_2:	26664:	checking data
+SystemIndex_1_DATA_2:	26664:	ERROR: page 73: dbtime is larger than database dbtime (0xf52, 0x2)
+SystemIndex_1_DATA_2:	26664:	integrity-check of table "SystemIndex_1_DATA_2" (22) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_3:	26664:	checking table "SystemIndex_1_DATA_3" (24)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 223: dbtime is larger than database dbtime (0x2dbb, 0x2)
+SystemIndex_1_DATA_3:	26664:	ERROR: page 113: dbtime is larger than database dbtime (0x120c, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 224: dbtime is larger than database dbtime (0x2dbf, 0x2)
+SystemIndex_1_DATA_3:	26664:	ERROR: page 114: dbtime is larger than database dbtime (0x1212, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 225: dbtime is larger than database dbtime (0x2dc3, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 226: dbtime is larger than database dbtime (0x2dc7, 0x2)
+SystemIndex_1_DATA_3:	26664:	checking data
+SystemIndex_1_DATA_13:	22516:	ERROR: page 227: dbtime is larger than database dbtime (0x2dcf, 0x2)
+SystemIndex_1_DATA_3:	26664:	ERROR: page 111: dbtime is larger than database dbtime (0x1215, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 228: dbtime is larger than database dbtime (0x2dd3, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 229: dbtime is larger than database dbtime (0x2dda, 0x2)
+SystemIndex_1_DATA_13:	22516:	ERROR: page 230: dbtime is larger than database dbtime (0x2dda, 0x2)
+SystemIndex_1_DATA_13:	22516:	integrity-check of table "SystemIndex_1_DATA_13" (40) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_7:	22516:	checking table "SystemIndex_1_DATA_7" (26)
+SystemIndex_1_DATA_3:	26664:	ERROR: page 115: dbtime is larger than database dbtime (0x1211, 0x2)
+SystemIndex_1_DATA_7:	22516:	checking data
+SystemIndex_1_DATA_7:	22516:	ERROR: page 120: dbtime is larger than database dbtime (0x165e, 0x2)
+SystemIndex_1_DATA_3:	26664:	ERROR: page 116: dbtime is larger than database dbtime (0x1215, 0x2)
+SystemIndex_1_DATA_7:	22516:	integrity-check of table "SystemIndex_1_DATA_7" (26) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_8:	22516:	checking table "SystemIndex_1_DATA_8" (28)
+SystemIndex_1_DATA_8:	22516:	checking data
+SystemIndex_1_DATA_3:	26664:	ERROR: page 117: dbtime is larger than database dbtime (0x1219, 0x2)
+SystemIndex_1_DATA_8:	22516:	ERROR: page 138: dbtime is larger than database dbtime (0x1777, 0x2)
+SystemIndex_1_DATA_8:	22516:	integrity-check of table "SystemIndex_1_DATA_8" (28) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_3:	26664:	integrity-check of table "SystemIndex_1_DATA_3" (24) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_DATA_9:	22516:	checking table "SystemIndex_1_DATA_9" (30)
+SystemIndex_1_OCC_1:	26664:	checking table "SystemIndex_1_OCC_1" (21)
+SystemIndex_1_DATA_9:	22516:	checking data
+SystemIndex_1_OCC_1:	26664:	checking data
+SystemIndex_1_DATA_9:	22516:	ERROR: page 140: dbtime is larger than database dbtime (0x1808, 0x2)
+SystemIndex_1_OCC_1:	26664:	ERROR: page 72: dbtime is larger than database dbtime (0xd14, 0x2)
+SystemIndex_1_DATA_9:	22516:	integrity-check of table "SystemIndex_1_DATA_9" (30) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_1:	26664:	integrity-check of table "SystemIndex_1_OCC_1" (21) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_10:	22516:	checking table "SystemIndex_1_OCC_10" (33)
+SystemIndex_1_OCC_10:	22516:	checking data
+SystemIndex_1_OCC_11:	26664:	checking table "SystemIndex_1_OCC_11" (35)
+SystemIndex_1_OCC_11:	26664:	checking data
+SystemIndex_1_OCC_10:	22516:	ERROR: page 150: dbtime is larger than database dbtime (0x186f, 0x2)
+SystemIndex_1_OCC_11:	26664:	ERROR: page 152: dbtime is larger than database dbtime (0x18c9, 0x2)
+SystemIndex_1_OCC_10:	22516:	integrity-check of table "SystemIndex_1_OCC_10" (33) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_11:	26664:	integrity-check of table "SystemIndex_1_OCC_11" (35) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_12:	22516:	checking table "SystemIndex_1_OCC_12" (37)
+SystemIndex_1_OCC_13:	26664:	checking table "SystemIndex_1_OCC_13" (41)
+SystemIndex_1_OCC_12:	22516:	checking data
+SystemIndex_1_OCC_13:	26664:	checking data
+SystemIndex_1_OCC_12:	22516:	ERROR: page 154: dbtime is larger than database dbtime (0x192c, 0x2)
+SystemIndex_1_OCC_13:	26664:	ERROR: page 220: dbtime is larger than database dbtime (0x2dd6, 0x2)
+SystemIndex_1_OCC_12:	22516:	integrity-check of table "SystemIndex_1_OCC_12" (37) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_13:	26664:	integrity-check of table "SystemIndex_1_OCC_13" (41) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_14:	22516:	checking table "SystemIndex_1_OCC_14" (43)
+SystemIndex_1_OCC_14:	22516:	checking data
+SystemIndex_1_OCC_15:	26664:	checking table "SystemIndex_1_OCC_15" (45)
+SystemIndex_1_OCC_14:	22516:	ERROR: page 245: dbtime is larger than database dbtime (0x30ed, 0x2)
+SystemIndex_1_OCC_15:	26664:	checking data
+SystemIndex_1_OCC_14:	22516:	integrity-check of table "SystemIndex_1_OCC_14" (43) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_15:	26664:	ERROR: page 247: dbtime is larger than database dbtime (0x36b7, 0x2)
+SystemIndex_1_OCC_16:	22516:	checking table "SystemIndex_1_OCC_16" (47)
+SystemIndex_1_OCC_16:	22516:		Data table will be rebuilt
+SystemIndex_1_OCC_15:	26664:	integrity-check of table "SystemIndex_1_OCC_15" (45) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_16:	22516:		Long-Value table will be rebuilt
+SystemIndex_1_OCC_16:	22516:		Indexes will be rebuilt
+SystemIndex_1_OCC_16:	22516:		Long-Value refcounts will be rebuilt
+SystemIndex_1_OCC_16:	22516:	table "SystemIndex_1_OCC_16" is corrupted
+SystemIndex_1_OCC_16:	22516:		data: 47 (256)
+SystemIndex_1_OCC_2:	26664:	checking table "SystemIndex_1_OCC_2" (23)
+SystemIndex_1_OCC_16:	22516:	ERROR: integrity-check of table "SystemIndex_1_OCC_16" (47) finishes with error -1206 (0xfffffb4a) after 0 seconds
+SystemIndex_1_OCC_2:	26664:	checking data
+SystemIndex_1_OCC_3:	22516:	checking table "SystemIndex_1_OCC_3" (25)
+SystemIndex_1_OCC_3:	22516:	checking data
+SystemIndex_1_OCC_2:	26664:	ERROR: page 74: dbtime is larger than database dbtime (0xf51, 0x2)
+SystemIndex_1_OCC_3:	22516:	ERROR: page 112: dbtime is larger than database dbtime (0x1218, 0x2)
+SystemIndex_1_OCC_2:	26664:	integrity-check of table "SystemIndex_1_OCC_2" (23) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_3:	22516:	integrity-check of table "SystemIndex_1_OCC_3" (25) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_7:	26664:	checking table "SystemIndex_1_OCC_7" (27)
+SystemIndex_1_OCC_7:	26664:	checking data
+SystemIndex_1_OCC_8:	22516:	checking table "SystemIndex_1_OCC_8" (29)
+SystemIndex_1_OCC_8:	22516:	checking data
+SystemIndex_1_OCC_7:	26664:	ERROR: page 121: dbtime is larger than database dbtime (0x165d, 0x2)
+SystemIndex_1_OCC_8:	22516:	ERROR: page 139: dbtime is larger than database dbtime (0x1776, 0x2)
+SystemIndex_1_OCC_7:	26664:	integrity-check of table "SystemIndex_1_OCC_7" (27) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_9:	26664:	checking table "SystemIndex_1_OCC_9" (31)
+SystemIndex_1_OCC_8:	22516:	integrity-check of table "SystemIndex_1_OCC_8" (29) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_1_OCC_9:	26664:	checking data
+SystemIndex_1_OCC_9:	26664:	ERROR: page 141: dbtime is larger than database dbtime (0x1807, 0x2)
+SystemIndex_1_Properties:	22516:	checking table "SystemIndex_1_Properties" (15)
+SystemIndex_1_OCC_9:	26664:	integrity-check of table "SystemIndex_1_OCC_9" (31) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_Gthr:	26664:	checking table "SystemIndex_Gthr" (10)
+SystemIndex_1_Properties:	22516:	ERROR: page 49: dbtime is larger than database dbtime (0x1943, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 34: dbtime is larger than database dbtime (0x3aec, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 50: dbtime is larger than database dbtime (0x36ba, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 35: dbtime is larger than database dbtime (0x3aee, 0x2)
+SystemIndex_1_Properties:	22516:	checking long value tree (18)
+SystemIndex_Gthr:	26664:	checking data
+SystemIndex_Gthr:	26664:	ERROR: page 33: dbtime is larger than database dbtime (0x3af1, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 53: dbtime is larger than database dbtime (0x1946, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 54: dbtime is larger than database dbtime (0x3f19, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 52: dbtime is larger than database dbtime (0x3f1c, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 107: dbtime is larger than database dbtime (0x38c4, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 108: dbtime is larger than database dbtime (0x3a98, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 110: dbtime is larger than database dbtime (0x382c, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 109: dbtime is larger than database dbtime (0x3af1, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 248: dbtime is larger than database dbtime (0x3e43, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 55: dbtime is larger than database dbtime (0x2102, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 56: dbtime is larger than database dbtime (0x2106, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 57: dbtime is larger than database dbtime (0xd28, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 58: dbtime is larger than database dbtime (0xd2f, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 59: dbtime is larger than database dbtime (0xf67, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 36: dbtime is larger than database dbtime (0x3e51, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 75: dbtime is larger than database dbtime (0xf6e, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 76: dbtime is larger than database dbtime (0x1225, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 77: dbtime is larger than database dbtime (0x122c, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 78: dbtime is larger than database dbtime (0x1233, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 79: dbtime is larger than database dbtime (0x1677, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 80: dbtime is larger than database dbtime (0x167e, 0x2)
+SystemIndex_Gthr:	26664:	checking index "indexRecovery" (12)
+SystemIndex_Gthr:	26664:	ERROR: page 38: dbtime is larger than database dbtime (0x1e9, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 81: dbtime is larger than database dbtime (0x1783, 0x2)
+SystemIndex_Gthr:	26664:	checking index "indexDocID" (11)
+SystemIndex_1_Properties:	22516:	ERROR: page 82: dbtime is larger than database dbtime (0x178a, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 83: dbtime is larger than database dbtime (0x1791, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 84: dbtime is larger than database dbtime (0x1881, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 85: dbtime is larger than database dbtime (0x1888, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 86: dbtime is larger than database dbtime (0x18d6, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 87: dbtime is larger than database dbtime (0x18dd, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 88: dbtime is larger than database dbtime (0x18e4, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 89: dbtime is larger than database dbtime (0x193e, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 90: dbtime is larger than database dbtime (0x194b, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 155: dbtime is larger than database dbtime (0x2de6, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 156: dbtime is larger than database dbtime (0x2ded, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 157: dbtime is larger than database dbtime (0x2df4, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 171: dbtime is larger than database dbtime (0x1f97, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 158: dbtime is larger than database dbtime (0x36c9, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 159: dbtime is larger than database dbtime (0x36d0, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 172: dbtime is larger than database dbtime (0x1f99, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 160: dbtime is larger than database dbtime (0x3f0e, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 161: dbtime is larger than database dbtime (0x3f15, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 162: dbtime is larger than database dbtime (0x3f1c, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 163: dbtime is larger than database dbtime (0x3f1c, 0x2)
+SystemIndex_1_Properties:	22516:	checking data
+SystemIndex_1_Properties:	22516:	ERROR: page 41: dbtime is larger than database dbtime (0x36bd, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 51: dbtime is larger than database dbtime (0x2107, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 122: dbtime is larger than database dbtime (0x1875, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 123: dbtime is larger than database dbtime (0x1932, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 124: dbtime is larger than database dbtime (0x36bd, 0x2)
+SystemIndex_1_Properties:	22516:	ERROR: page 125: dbtime is larger than database dbtime (0x36d3, 0x2)
+SystemIndex_1_Properties:	22516:	checking LV refcounts
+SystemIndex_1_Properties:	22516:	WARNING: orphaned LV (lid 0x800000008000000c, refcount 1). Offline defragmentation should fix this.
+SystemIndex_1_Properties:	22516:	integrity-check of table "SystemIndex_1_Properties" (15) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrAppOwner:	22516:	checking table "SystemIndex_GthrAppOwner" (14)
+SystemIndex_GthrAppOwner:	22516:	checking data
+SystemIndex_GthrAppOwner:	22516:	ERROR: page 40: dbtime is larger than database dbtime (0x204, 0x2)
+SystemIndex_GthrAppOwner:	22516:	integrity-check of table "SystemIndex_GthrAppOwner" (14) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_GthrPth:	22516:	checking table "SystemIndex_GthrPth" (13)
+SystemIndex_GthrPth:	22516:	checking data
+SystemIndex_GthrPth:	22516:	ERROR: page 39: dbtime is larger than database dbtime (0x3cca, 0x2)
+SystemIndex_GthrPth:	22516:	integrity-check of table "SystemIndex_GthrPth" (13) finishes with error 0 (0x0) after 0 seconds
+SystemIndex_Gthr:	26664:	ERROR: page 37: dbtime is larger than database dbtime (0x1f9c, 0x2)
+SystemIndex_PropertyStore:	22516:	checking table "SystemIndex_PropertyStore" (17)
+SystemIndex_Gthr:	26664:	ERROR: page 173: dbtime is larger than database dbtime (0x1f9c, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: page 174: dbtime is larger than database dbtime (0x3c7b, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 60: dbtime is larger than database dbtime (0x23f4, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 61: dbtime is larger than database dbtime (0x3e19, 0x2)
+SystemIndex_Gthr:	26664:	rebuilding and comparing indexes
+SystemIndex_PropertyStore:	22516:	checking long value tree (39)
+SystemIndex_PropertyStore:	22516:	ERROR: page 179: dbtime is larger than database dbtime (0x2686, 0x2)
+SystemIndex_PropertyStore:	22516:	checking data
+SystemIndex_PropertyStore:	22516:	ERROR: page 43: dbtime is larger than database dbtime (0x247b, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 62: dbtime is larger than database dbtime (0x3680, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 92: dbtime is larger than database dbtime (0x10ba, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 91: dbtime is larger than database dbtime (0x3613, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 63: dbtime is larger than database dbtime (0x35a4, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 64: dbtime is larger than database dbtime (0x3527, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 65: dbtime is larger than database dbtime (0x3512, 0x2)
+ERROR: Table "SystemIndex_Gthr", Index "indexDocID":  SystemIndex_PropertyStore:	22516:	ERROR: page 66: dbtime is larger than database dbtime (0x34f3, 0x2)
+ERROR: real index has fewer (891) srecords
+SystemIndex_PropertyStore:	22516:	ERROR: page 93: dbtime is larger than database dbtime (0x34d1, 0x2)
+SystemIndex_Gthr:	26664:		Indexes will be rebuilt
+SystemIndex_Gthr:	26664:	table "SystemIndex_Gthr" is corrupted
+SystemIndex_Gthr:	26664:		data: 10 (33)
+SystemIndex_Gthr:	26664:		primary index
+SystemIndex_Gthr:	26664:		index "indexRecovery": 12 (38)
+SystemIndex_Gthr:	26664:		index "indexDocID": 11 (37)
+SystemIndex_PropertyStore:	22516:	ERROR: page 94: dbtime is larger than database dbtime (0x34b0, 0x2)
+SystemIndex_Gthr:	26664:	ERROR: integrity-check of table "SystemIndex_Gthr" (10) finishes with error -1206 (0xfffffb4a) after 0 seconds
+SystemIndex_PropertyStore:	22516:	ERROR: page 95: dbtime is larger than database dbtime (0x349c, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 96: dbtime is larger than database dbtime (0x3489, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 97: dbtime is larger than database dbtime (0x346b, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 98: dbtime is larger than database dbtime (0x3448, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 99: dbtime is larger than database dbtime (0x3424, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 100: dbtime is larger than database dbtime (0x3402, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 101: dbtime is larger than database dbtime (0x33dc, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 102: dbtime is larger than database dbtime (0x3a97, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 104: dbtime is larger than database dbtime (0x33a2, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 103: dbtime is larger than database dbtime (0x338f, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 105: dbtime is larger than database dbtime (0x3367, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 106: dbtime is larger than database dbtime (0x3353, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 180: dbtime is larger than database dbtime (0x3a4e, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 182: dbtime is larger than database dbtime (0x3330, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 181: dbtime is larger than database dbtime (0x3e38, 0x2)
+SystemIndex_PropertyStore:	22516:	ERROR: page 181: NULL page pointer to leaf page with pgnoNext
+SystemIndex_PropertyStore:	22516:	ERROR: node [43:23]: subtree check (page 181) failed with err -1206
+SystemIndex_PropertyStore:	22516:		Data table will be rebuilt
+SystemIndex_PropertyStore:	22516:		Long-Value table will be rebuilt
+SystemIndex_PropertyStore:	22516:		Indexes will be rebuilt
+SystemIndex_PropertyStore:	22516:		Long-Value refcounts will be rebuilt
+SystemIndex_PropertyStore:	22516:	table "SystemIndex_PropertyStore" is corrupted
+SystemIndex_PropertyStore:	22516:		data: 17 (43)
+SystemIndex_PropertyStore:	22516:		long values: 39 (179)
+SystemIndex_PropertyStore:	22516:		primary index
+SystemIndex_PropertyStore:	22516:	ERROR: integrity-check of table "SystemIndex_PropertyStore" (17) finishes with error -1206 (0xfffffb4a) after 0 seconds
+WARNING: Database file is too big (expected 510 pages, file is 1022 pages)
+ERROR: Global space tree is too small (has 510 pages, file is 1022 pages). The space tree will be rebuilt
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:03/13/2022 20:11:51.345 Rand:2197070859 Computer:
+scanning the database from page 1 to page 1278
+ERROR: Global space tree is too small (has 510 pages, seen 783 pages). The space tree will be rebuilt
+changing signature of .\Windows.edb
+new DB signature is:
+Create time:Create time:03/13/2022 20:11:51.485 Rand:1640330710 Computer:
+repairing database root
+Global OwnExt:  1275 pages ending at 1278
+
+Deleting unicode fixup table.
+
+Deleting MSObjids.
+
+Deleting MSysLocales.
+repairing table "SystemIndex_PropertyStore"
+rebuilding data
+creating new FDP with 3 pages starting at 1279
+table SystemIndex_PropertyStore (17). new pgnoFDP is 1279
+b-tree rebuilt with 32 data pages
+rebuilding long value tree
+creating new FDP with 3 pages starting at 1282
+LV (39). new pgnoFDP is 1282
+b-tree rebuilt with 1 data pages
+fixing long value tree
+fixing records
+fixing long value refcounts
+rebuilding indexes
+repairing table "SystemIndex_Gthr"
+fixing records
+fixing long value refcounts
+rebuilding indexes
+creating new FDP with 3 pages starting at 1285
+creating new FDP with 3 pages starting at 1288
+repairing table "SystemIndex_1_OCC_16"
+rebuilding data
+creating new FDP with 3 pages starting at 1295
+table SystemIndex_1_OCC_16 (47). new pgnoFDP is 1295
+b-tree rebuilt with 0 data pages
+fixing records
+fixing long value refcounts
+rebuilding indexes
+repairing table "SystemIndex_1_DATA_16"
+rebuilding data
+creating new FDP with 3 pages starting at 1298
+table SystemIndex_1_DATA_16 (46). new pgnoFDP is 1298
+b-tree rebuilt with 0 data pages
+fixing records
+fixing long value refcounts
+rebuilding indexes
+Closing and detaching database (for MSO dependent table fixups).
+Reattaching database (for MSO dependent table fixups).
+
+Repair completed. Database corruption has been repaired!
+
+
+
+***** Eseutil completed in 1 seconds
+
