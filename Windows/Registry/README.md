@@ -1,6 +1,10 @@
 # DFIRArtifactMuseum
 The goal of this repo is to archive artifacts from all versions of various OS's and categorizing them by type. This will help with artifact validation processes as well as increase access to artifacts that may no longer be readily available anymore. 
 
+## Other Resources
+
+[Maxim Suhanov's Test Hives](https://github.com/msuhanov/yarp/tree/master/hives_for_tests)
+
 ## Registry Hives
 
 For more registry hives from clean installs of pretty much every version of Windows from Windows 7 to present, check out the [VanillaWindowsRegistryHives](https://github.com/AndrewRathbun/VanillaWindowsRegistryHives) repo.
