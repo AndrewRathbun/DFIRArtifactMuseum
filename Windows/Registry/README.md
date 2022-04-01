@@ -3,7 +3,8 @@ The goal of this repo is to archive artifacts from all versions of various OS's 
 
 ## Other Resources
 
-[Maxim Suhanov's Test Hives](https://github.com/msuhanov/yarp/tree/master/hives_for_tests)
+* [Maxim Suhanov's Test Hives](https://github.com/msuhanov/yarp/tree/master/hives_for_tests)
+* [Maxim Suhanov's Registry Samples](https://github.com/msuhanov/regf-samples)
 
 ## Registry Hives
 
