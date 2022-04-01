@@ -65,6 +65,7 @@ Special thank you to [Kevin Pagano](https://twitter.com/KevinPagano3) for the [a
    * [RecentFileCacheParser](https://github.com/EricZimmerman/RecentFileCacheParser/tree/master/RecentFileCache.Test/Files)
    * [Registry](https://github.com/EricZimmerman/Registry/tree/master/Registry.Test)
    * [SDB](https://github.com/EricZimmerman/SDB/tree/master/SBD.Test/Test%20Files)
+* [Maxim Suhanov](https://twitter.com/errno_fail) - Various samples from [his GitHub repositories](https://github.com/msuhanov?tab=repositories) (with [explicit permission](https://twitter.com/errno_fail/status/1509473411793408005?s=20&t=QPEMSLpH1eLvkqcVBQQHBg))
 
 Please see Digital Corpora's [Research Paper](https://simson.net/clips/academic/2009.DFRWS.Corpora.pdf) on `Bringing science to digital forensics with standardized
 forensic corpora`
