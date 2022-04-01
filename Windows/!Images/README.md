@@ -9,4 +9,3 @@ There are multiple refereces to `APTSimulatorVM` throughout the Museum. You can 
 ## NTFS Images
 
 * [Maxim Suhanov's NTFS Samples](https://github.com/msuhanov/ntfs-samples)
-* 
