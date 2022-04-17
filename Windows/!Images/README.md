@@ -13,6 +13,8 @@ More specifically, the following datasets are available for anyone's use:
 * [APT Simulator + Sophos](https://www.mediafire.com/folder/f15he9jnle07y/Sophos)
 * [APT Simulator + TrendMicro](https://www.mediafire.com/folder/vyexnx2jxiubr/TrendMicro)
 
+The above images were created by DFIRArtifactMuseum curator Andrew Rathbun. Please use them as you see fit for your studies, research, etc.
+
 ## NTFS Images
 
 * [Maxim Suhanov's NTFS Samples](https://github.com/msuhanov/ntfs-samples)
