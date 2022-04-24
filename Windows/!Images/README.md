@@ -24,6 +24,10 @@ More specifically, the following datasets are available for anyone's use:
 
 The above images were created by DFIRArtifactMuseum curator Andrew Rathbun. Please use them as you see fit for your studies, research, etc.
 
+### Methodology
+
+I simply ran APTSimulator in a VM with each AV product installed and generated the data after APTSimulator got as far as the specific AV product allowed. 
+
 ## NTFS Images
 
 * [Maxim Suhanov's NTFS Samples](https://github.com/msuhanov/ntfs-samples)
