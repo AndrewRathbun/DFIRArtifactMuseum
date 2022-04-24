@@ -12,10 +12,15 @@ There are multiple refereces to `APTSimulatorVM` throughout the Museum. You can 
 
 More specifically, the following datasets are available for anyone's use:
 
-* [APT Simulator + Windows Defender](https://www.mediafire.com/folder/k93flelcz45b2/WindowsDefender)
+* [APT Simulator + Avast](https://www.mediafire.com/folder/88yjg52s2c024/Avast)
+* [APT Simulator + AVG](https://www.mediafire.com/folder/2hj0eq2w8hv87/AVG)
+* [APT Simulator + Avira](https://www.mediafire.com/folder/ko25h17bh9my7/Avira)
+* [APT Simulator + Bitdefender](https://www.mediafire.com/folder/r0txev9wyddqd/Bitdefender)
 * [APT Simulator + Kaspersky](https://www.mediafire.com/folder/a4ifcllcb901h/Kaspersky)
+* [APT Simulator + Malwarebytes](https://www.mediafire.com/folder/dsn8xle407n6c/Malwarebytes)
 * [APT Simulator + Sophos](https://www.mediafire.com/folder/f15he9jnle07y/Sophos)
 * [APT Simulator + TrendMicro](https://www.mediafire.com/folder/vyexnx2jxiubr/TrendMicro)
+* [APT Simulator + Windows Defender](https://www.mediafire.com/folder/k93flelcz45b2/WindowsDefender)
 
 The above images were created by DFIRArtifactMuseum curator Andrew Rathbun. Please use them as you see fit for your studies, research, etc.
 
