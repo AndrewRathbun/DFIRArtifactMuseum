@@ -12,3 +12,7 @@ The artifacts generated using [APTSimulator](https://github.com/NextronSystems/A
 ### RathbunVM
 
 The artifacts generated in the RathbunVM folders are from a clean/minimally used Windows install. These exist more for the purpose of showing what the artifacts look like "out of the box". These can be used for comparative analysis with another version of Windows to see what, if anything, has changed. 
+
+### GIAC Gold Paper (GCFE)
+
+In July 2022, my GIAC Gold Paper was published which covered the differences between Windows 10 and 11. With that, I've provided KapeTriage packages for the VMs I created to conduct that research. You can find links to those KapeTriage packages [here](https://github.com/AndrewRathbun/SANSGoldPaperResearch_FOR500_Rathbun).
