@@ -1,0 +1,43 @@
+[2023-02-05 21:14:56.8840112 | INF] KAPE directory: C:\temp
+[2023-02-05 21:14:56.8999635 | INF] Command line:   --tsource C: --tdest C:\temp\RDPCache\15 --tflush --target RDPCache --zip Windows11RDPCache15 --debug --gui 
+[2023-02-05 21:14:56.9150558 | INF] System info: Machine name: DESKTOP-K0EJV7B, 64-bit: true, User: digit OS: "Windows10" (10.0.22000)
+[2023-02-05 21:14:57.3527882 | DBG]   Validating configuration files
+[2023-02-05 21:15:00.2594853 | DBG] 269 targets and 0 modules validated successfully
+[2023-02-05 21:15:00.2744452 | INF] Using Target operations
+[2023-02-05 21:15:00.2744452 | WRN]   Flushing target destination directory C:\temp\RDPCache\15
+[2023-02-05 21:15:00.2744452 | WRN]   Creating target destination directory C:\temp\RDPCache\15
+[2023-02-05 21:15:00.2901657 | INF] Found 3 targets. Expanding targets to file list...
+[2023-02-05 21:15:00.2901657 | DBG] Processing target: RDP Cache Files (v1.1)
+[2023-02-05 21:15:00.3063613 | DBG] Expanding directory: C:\Users\%user%\AppData\Local\Microsoft\Terminal Server Client\Cache\
+[2023-02-05 21:15:00.3372729 | DBG]   C:\ProgramData\AppData\Local\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3681610 | DBG]   C:\Users\Default\AppData\Local\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3681610 | DBG]   C:\Users\Default\AppData\Local\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3681610 | DBG] Getting files from C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache. Recursive: false, Mask: *
+[2023-02-05 21:15:00.3681610 | DBG] Found match: C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\bcache24.bmc
+[2023-02-05 21:15:00.3681610 | DBG] Found match: C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\Cache0000.bin
+[2023-02-05 21:15:00.3838093 | DBG]   C:\Users\Public\AppData\Local\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3838093 | DBG] Files found: 2
+[2023-02-05 21:15:00.3838093 | DBG] Processing target: Windows.old RDP Cache Files (v1.1)
+[2023-02-05 21:15:00.3838093 | DBG] Expanding directory: C:\Windows.old\Users\%user%\AppData\Local\Microsoft\Terminal Server Client\Cache\
+[2023-02-05 21:15:00.3838093 | DBG] 	C:\Windows.old\Users does not exist. Skipping
+[2023-02-05 21:15:00.3838093 | DBG] Files found: 0
+[2023-02-05 21:15:00.3838093 | DBG] Processing target: RDP Cache Files (v1.1)
+[2023-02-05 21:15:00.3838093 | DBG] Expanding directory: C:\Documents and Settings\%user%\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache\
+[2023-02-05 21:15:00.3996690 | DBG]   C:\ProgramData\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3996690 | DBG]   C:\Users\Default\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3996690 | DBG]   C:\Users\Default\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.3996690 | DBG] Getting files from C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache. Recursive: false, Mask: *
+[2023-02-05 21:15:00.4150724 | DBG] Found match: C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\bcache24.bmc
+[2023-02-05 21:15:00.4150724 | DBG] Found match: C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\Cache0000.bin
+[2023-02-05 21:15:00.4150724 | DBG]   C:\Users\Public\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache does not exist. Skipping
+[2023-02-05 21:15:00.4150724 | DBG] Files found: 2
+[2023-02-05 21:15:00.7431669 | INF] Found 2 files in 0.152 seconds. Beginning copy...
+[2023-02-05 21:15:02.0089465 | DBG] Creating directory C:\temp\RDPCache\15\C\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache
+[2023-02-05 21:15:02.0402663 | DBG]   Copied C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\bcache24.bmc to C:\temp\RDPCache\15\C\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\bcache24.bmc | Source SHA-1: DA39A3EE5E6B4B0D3255BFEF95601890AFD80709 | Source created: "2023-02-06T02:14:14.0450172Z" | Source modified: "2023-02-06T02:14:14.0450172Z" | Source last accessed: "2023-02-06T02:14:14.0450172Z" 
+[2023-02-05 21:15:02.2905398 | DBG]   Copied C:\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\Cache0000.bin to C:\temp\RDPCache\15\C\Users\digit\AppData\Local\Microsoft\Terminal Server Client\Cache\Cache0000.bin | Source SHA-1: 5CCBB666DE8D76B82E26489D035DB589E9CFFD1A | Source created: "2023-02-06T02:14:31.8558217Z" | Source modified: "2023-02-06T02:14:31.8684886Z" | Source last accessed: "2023-02-06T02:14:31.8684886Z" 
+[2023-02-05 21:15:02.2905398 | DBG] Flushing writers and streams...
+[2023-02-05 21:15:02.2905398 | DBG] Deleting empty skiplog CSV
+[2023-02-05 21:15:02.2905398 | INF] Copied 2 out of 2 files in 2.0333 seconds. See 2023-02-06T02_14_54_7901826_CopyLog.csv in the VHD(X)/Zip located in C:\temp\RDPCache\15 for copy details
+[2023-02-05 21:15:02.3213289 | WRN] Compressing files to C:\temp\RDPCache\15\2023-02-06T021454_Windows11RDPCache15.zip...
+[2023-02-05 21:15:04.3369817 | INF] Cleaning up files in C:\temp\RDPCache\15...
+[2023-02-05 21:15:04.3525514 | INF] Total execution time: 4.0948 seconds
