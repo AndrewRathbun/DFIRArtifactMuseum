@@ -1,3 +1,13 @@
 # Amcache
 
-This subfolder contains multiple samples of Windows Amcache artifacts. 
+## Description
+
+This subfolder contains multiple samples of Windows Amcache artifacts.
+
+## Documentation
+
+* TBD
+
+## Acknowledgments
+
+* TBD
