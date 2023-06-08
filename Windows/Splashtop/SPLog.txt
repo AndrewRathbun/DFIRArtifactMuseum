@@ -1,0 +1,18 @@
+<1>Sep  1 11:40:53 [SM_04020]:[Auth-L] ok, client (mechant_host) can connect to AV server
+<1>Sep  1 11:40:53 [SM_04020]:[CoreMgr] ackWithJson enable [*]
+<1>Sep  1 11:40:53 [SM_04020]:[CoreMgr] disp name john doe
+[...]
+<1>Sep  1 11:40:58 [AP_07144]:[Banner] Got notification from SRM. w:7111, l:0
+<1>Sep  1 11:40:58 [AP_07144]:[Banner] Reg show banner:0
+<1>Sep  1 11:40:58 [AP_07144]:[Banner] Got client 1 public IP 123.231.123.231
+[...]
+<1>Sep  1 11:42:12 [SM_04020]:[FTC] handle FTC start
+<1>Sep  1 11:42:12 [SM_04020]:[File] FileStreamSendDataHandler run start
+<1>Sep  1 11:42:12 [SM_04020]:[FTC] UploadRequest, fileID[289614100], filePath[C:\Users\lab\Desktop\mechant.7z], compresstyee[1]
+<1>Sep  1 11:42:12 [SM_04020]:[CCloudFileTaskManager::OnUploadRequest] CCloudFileTaskManager::OnUploadRequest(1, 1, ...)=>{"fileID":"289614100","fileName":"mechant.7z","fileSize":"1885074","fullPath":"C:\\Users\\lab\\Desktop\\mechant.7z","remotesessionFTC":1,"request":"uploadFile"}
+[...]
+<1>Sep  1 11:44:18 [CT_06340]:[Chat] User want to save logs
+<1>Sep  1 11:44:36 [CT_06340]:[Chat] Begin to write text file to C:\Users\lab\Desktop\Splashtop_Chat_20220901_1144.txt, lines:7
+<1>Sep  1 11:44:36 [CT_06340]:[Chat] File::C:\Users\lab\Desktop\Splashtop_Chat_20220901_1144.txt save successfully
+<1>Sep  1 11:44:36 [CT_06340]:[Chat] --- SRChat End ---
+<1>Sep  1 11:44:37 [CT_06340]:[Chat] No live wnd, close process
