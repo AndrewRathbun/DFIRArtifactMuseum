@@ -1,0 +1,9 @@
+info 2022-09-28 12:39:26.845       lsvc   9952   9944   21                anynet.any_socket - Client-ID: 442226597 (FPR: 8e28a2a25b30).
+info 2022-09-28 12:39:26.845       lsvc   9952   9944   21                anynet.any_socket - Logged in from 12.xx.xx.21:59562 on relay 80e496c0. 
+info 2022-09-28 12:38:44.222       lsvc   9952   9944    3                anynet.relay_conn - External address: 34.xx.xx.123:50831.
+info 2022-09-28 12:38:44.222       lsvc   9952   9944    3           anynet.main_relay_conn - Main relay ID: 80e496c0
+info 2022-09-28 12:38:44.225       lsvc   9952   9944    3           anynet.main_relay_conn - Detected 2 new networks.
+info 2022-09-28 12:38:44.228       lsvc   9952   9944    2            anynet.connection_mgr - Main relay connection established.
+info 2022-09-28 12:38:44.228       lsvc   9952   9944    2            anynet.connection_mgr - New user data. Client-ID: 294433414.
+info 2022-09-28 12:41:20.001      front   6252    496                      app.prepare_task - Preparing files in 'C:\Users\lab\Downloads'.
+info 2022-09-28 12:41:20.001      front   6252    496               app.local_file_transfer - Preparation of 1 files completed (io_ok).

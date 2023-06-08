@@ -1,0 +1,7 @@
+info 2022-08-23 10:20:11.969       gsvc   4628   3528    3                anynet.relay_conn - External address: 34.xx.xx.123:46798.
+info 2022-08-23 10:20:11.969       gsvc   4628   3528    3           anynet.main_relay_conn - Main relay ID: 8d9e4ddf
+info 2022-08-23 10:20:11.984       gsvc   4628   3528    1                  fiber.scheduler - Spawning root fiber 18.
+info 2022-08-23 10:20:11.984       gsvc   4628   3528    2            anynet.connection_mgr - Main relay connection established.
+info 2022-08-23 10:20:11.984       gsvc   4628   3528    2            anynet.connection_mgr - New user data. Client-ID: 609579424.
+info 2022-08-23 10:20:17.125       gsvc   4628   3528   23                anynet.any_socket - Client-ID: 547911884 (FPR: 67a8dcc336a1).
+info 2022-08-23 10:20:17.125       gsvc   4628   3528   23                anynet.any_socket - Logged in from 12.xx.xx.21:41314 on relay ad3345a7.
