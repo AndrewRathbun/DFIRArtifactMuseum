@@ -5,7 +5,7 @@
 |Product|Windows 10 Enterprise LTSC 2019|
 |Version|1809|
 |Major Build|17763|
-|Minor Build|1728|
+|Minor Build|1757|
 |Architecture|x86|
 |Distribution Channel|Free|
 |Branch|rs5_release|
