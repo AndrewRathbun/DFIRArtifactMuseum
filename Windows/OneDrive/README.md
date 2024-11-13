@@ -2,13 +2,13 @@
 
 ## Description
 
-This subfolder contains multiple versions of OneDrive's appdata directories
+This subfolder contains multiple versions of OneDrive's AppData directories
 
 ## Documentation
 
-[All Thigs OneDrive](https://malwaremaloney.blogspot.com/p/all-things-onedrive.html)
+[All Things OneDrive](https://malwaremaloney.blogspot.com/p/all-things-onedrive.html)
 
 ## Acknowledgments
 
 * Brian Maloney
-    * [All Thigs OneDrive](https://malwaremaloney.blogspot.com/p/all-things-onedrive.html)
+    * [All Things OneDrive](https://malwaremaloney.blogspot.com/p/all-things-onedrive.html)
