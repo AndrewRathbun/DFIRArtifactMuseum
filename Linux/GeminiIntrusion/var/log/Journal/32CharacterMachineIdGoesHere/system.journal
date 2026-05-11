@@ -1,0 +1,10 @@
+May 12 02:30:15 srv-prod systemd[1]: /etc/systemd/system/dbus-org.freedesktop.network.service:8: Executable path is not absolute, ignoring: ./network-sync
+May 12 02:30:15 srv-prod systemd[1]: Reloading.
+May 12 02:30:45 srv-prod systemd[1]: Started Network Time Synchronization Helper.
+May 12 02:30:45 srv-prod network-helper[3401]: Initializing sync daemon...
+May 12 02:30:46 srv-prod network-helper[3401]: Connected to 185.11.22.33:443
+May 12 04:15:22 srv-prod systemd[1]: network-helper.service: Main process exited, code=killed, status=9/KILL
+May 12 04:15:22 srv-prod systemd[1]: network-helper.service: Failed with result 'signal'.
+May 12 04:15:22 srv-prod systemd[1]: network-helper.service: Scheduled restart job, restart counter is at 1.
+May 12 04:15:22 srv-prod systemd[1]: Stopped Network Time Synchronization Helper.
+May 12 04:15:22 srv-prod systemd[1]: Started Network Time Synchronization Helper.

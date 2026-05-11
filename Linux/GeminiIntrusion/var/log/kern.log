@@ -1,0 +1,6 @@
+May 11 11:22:05 srv-prod kernel: [ 8451.102341] diamorphine: loading out-of-tree module taints kernel.
+May 11 11:22:05 srv-prod kernel: [ 8451.102345] diamorphine: module verification failed: signature and/or required key missing - tainting kernel
+May 11 11:22:05 srv-prod kernel: [ 8451.104599] diamorphine: loaded
+May 11 14:05:12 srv-prod kernel: [18234.561230] xmrig invoked oom-killer: gfp_mask=0x100cca(GFP_HIGHUSER_MOVABLE), order=0, oom_score_adj=0
+May 11 14:05:12 srv-prod kernel: [18234.561233] CPU: 2 PID: 4501 Comm: xmrig Tainted: G           OE     5.4.0-150-generic #167-Ubuntu
+May 11 14:05:12 srv-prod kernel: [18234.561280] Out of memory: Killed process 4501 (xmrig) total-vm:4152340kB, anon-rss:3801200kB, file-rss:0kB, shmem-rss:0kB

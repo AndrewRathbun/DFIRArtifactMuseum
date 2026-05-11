@@ -1,0 +1,6 @@
+May 11 08:42:15 vpn-gw1 ovpn-server[1105]: MULTI: multi_create_instance called
+May 11 08:42:15 vpn-gw1 ovpn-server[1105]: 185.11.22.33:49152 Re-using SSL/TLS context
+May 11 08:42:15 vpn-gw1 ovpn-server[1105]: 185.11.22.33:49152 Control Channel MTU parms [ L:1622 D:1212 EF:38 EB:0 ET:0 EL:3 ]
+May 11 08:42:16 vpn-gw1 ovpn-server[1105]: 185.11.22.33:49152 [jsmith_contractor] Peer Connection Initiated with [AF_INET]185.11.22.33:49152
+May 11 08:42:16 vpn-gw1 ovpn-server[1105]: jsmith_contractor/185.11.22.33:49152 MULTI_sva: pool returned IPv4=10.0.8.55, IPv6=(Not enabled)
+May 11 08:42:18 vpn-gw1 ovpn-server[1105]: jsmith_contractor/185.11.22.33:49152 send_push_reply(): route 10.0.5.0 255.255.255.0

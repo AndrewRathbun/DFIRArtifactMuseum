@@ -1,0 +1,19 @@
+--4b3c2a1d-A--
+[11/May/2026:09:05:12 +0000] ZGzXwAoAAAoAAAB1AAAABwAA 185.11.22.33 54122 10.0.5.15 443
+--4b3c2a1d-B--
+POST /uploads/profile_pic.php HTTP/1.1
+Host: web.corp.local
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+--4b3c2a1d-C--
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="avatar.png.php"
+Content-Type: image/png
+
+\x89PNG\x0d\x0a\x1a\x0a... [DEFANGED_PHP_WEBSHELL_PAYLOAD_REMOVED_FOR_AV_SAFETY] ...
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+--4b3c2a1d-H--
+Message: Warning. Pattern match "\.php$" at FILES:file.
+Action: Intercepted (phase 2)
+Stopwatch: 1715418312000000 1205
+--4b3c2a1d-Z--
