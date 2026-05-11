@@ -1,0 +1,7 @@
+May 11 09:30:01 srv-prod CRON[2102]: (root) CMD (/tmp/.cache_proc)
+May 11 09:31:15 srv-prod kernel: [ 4521.123456] .cache_proc[2105]: segfault at 0 ip 00007fca12345678 sp 00007ffe12345670 error 4 in libc-2.31.so
+May 11 09:35:01 srv-prod CRON[2240]: (root) CMD (/tmp/.cache_proc)
+May 11 09:36:12 srv-prod systemd[1]: Starting Hostname Service...
+May 11 09:36:13 srv-prod systemd[1]: Started Hostname Service.
+May 11 09:40:01 srv-prod CRON[2310]: (root) CMD (/usr/local/bin/fix_logs.sh)
+May 11 09:40:02 srv-prod root: Unexpected end of file in /var/log/apache2/access.log - log rotation failed?

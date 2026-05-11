@@ -1,0 +1,10 @@
+May 11 09:12:01 srv-prod sshd[1422]: Failed password for invalid user admin from 192.168.1.45 port 54322 ssh2
+May 11 09:12:04 srv-prod sshd[1425]: Failed password for invalid user test from 192.168.1.45 port 54328 ssh2
+May 11 09:12:07 srv-prod sshd[1429]: Failed password for user webapp from 192.168.1.45 port 54334 ssh2
+May 11 09:12:10 srv-prod sshd[1432]: Accepted password for user webapp from 192.168.1.45 port 54340 ssh2
+May 11 09:12:10 srv-prod sshd[1432]: pam_unix(sshd:session): session opened for user webapp by (uid=0)
+May 11 09:13:45 srv-prod sudo:   webapp : TTY=pts/0 ; PWD=/home/webapp ; USER=root ; COMMAND=/usr/bin/apt-get update
+May 11 09:14:12 srv-prod sudo:   webapp : TTY=pts/0 ; PWD=/home/webapp ; USER=root ; COMMAND=/bin/bash
+May 11 09:14:12 srv-prod sudo: pam_unix(sudo:session): session opened for user root by webapp(uid=1001)
+May 11 09:15:01 srv-prod sshd[1432]: pam_unix(sshd:session): session closed for user webapp
+May 11 09:15:20 srv-prod sshd[1501]: Accepted publickey for root from 192.168.1.45 port 54350 ssh2: RSA SHA256:vV...
